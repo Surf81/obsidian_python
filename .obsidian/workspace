@@ -23,7 +23,7 @@
           "type": "markdown",
           "state": {
             "file": "Стандартные модули Python/модули/collections/namedtuple - класс.md",
-            "mode": "preview",
+            "mode": "source",
             "source": false
           }
         },
@@ -144,15 +144,15 @@
   },
   "active": "b9f657edf0aa0237",
   "lastOpenFiles": [
+    "Стандартные модули Python/модули/collections/Без названия.md",
+    "Стандартные модули Python/модули/collections/namedtuple - класс.md",
+    "Встроенные возможности Python/str/_str - тип данных.md",
+    "Встроенные возможности Python/tuple/_tuple - тип данных.md",
     "Стандартные модули Python/модули/collections/_collections - модуль.md",
     "Стандартные модули Python/01. Модули по алфавиту.md",
-    "Встроенные возможности Python/tuple/_tuple - тип данных.md",
-    "Встроенные возможности Python/str/_str - тип данных.md",
     "Встроенные возможности Python.md",
     "Стандартные модули Python/модули/string/_string - модуль.md",
     "Стандартные модули Python/02. Модули по назначению.md",
-    "Дополнительные модули Python/дополнительные модули.md",
-    "Python - разное/Заметки.md",
-    "Стандартные модули Python/модули/gc/_gc - модуль.md"
+    "Дополнительные модули Python/дополнительные модули.md"
   ]
 }
