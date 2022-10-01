@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Встроенные возможности Python/str/_str - тип данных.md",
+            "file": "Стандартные модули Python/модули/collections/namedtuple - класс.md",
             "mode": "source",
             "source": false
           }
@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Встроенные возможности Python/str/_str - тип данных.md",
+            "file": "Стандартные модули Python/модули/collections/namedtuple - класс.md",
             "mode": "preview",
             "source": false
           }
@@ -75,7 +75,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 352.5
   },
   "right": {
     "id": "a7cfba8017353da4",
@@ -91,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Встроенные возможности Python/str/_str - тип данных.md",
+                "file": "Стандартные модули Python/модули/collections/namedtuple - класс.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Встроенные возможности Python/str/_str - тип данных.md",
+                "file": "Стандартные модули Python/модули/collections/namedtuple - класс.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Встроенные возможности Python/str/_str - тип данных.md"
+                "file": "Стандартные модули Python/модули/collections/namedtuple - класс.md"
               }
             }
           }
@@ -142,17 +142,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "4711eaf31e82bf43",
+  "active": "b9f657edf0aa0237",
   "lastOpenFiles": [
-    "Стандартные модули Python/00. Встроенные возможности.md",
+    "Стандартные модули Python/модули/collections/_collections - модуль.md",
     "Стандартные модули Python/01. Модули по алфавиту.md",
+    "Встроенные возможности Python/tuple/_tuple - тип данных.md",
     "Встроенные возможности Python/str/_str - тип данных.md",
+    "Встроенные возможности Python.md",
     "Стандартные модули Python/модули/string/_string - модуль.md",
     "Стандартные модули Python/02. Модули по назначению.md",
     "Дополнительные модули Python/дополнительные модули.md",
     "Python - разное/Заметки.md",
-    "Стандартные модули Python/модули/gc/_gc - модуль.md",
-    "Стандартные модули Python/модули/copy/_copy - модуль.md",
-    "Стандартные модули Python/модули/operator/_operator - модуль.md"
+    "Стандартные модули Python/модули/gc/_gc - модуль.md"
   ]
 }
