@@ -9,7 +9,6 @@
 - можно сравнивать обычные словари (тип `dict`) и `defaultdict` словари.
 - При создании `defaultdict` словаря можно указывать не только тип данных для значений по умолчанию, но и любую функцию, **не принимающую аргументов** и **возвращающую некоторое дефолтное значение**
 - Тип `defaultdict` работает быстрее чем использование методов `setdefault()` и `get()` обычного словаря (тип `dict`).
-- 
 
 ```python
 from collections import defaultdict 
@@ -20,4 +19,11 @@ info2 = defaultdict(int, [('name', 'Timur'), ('age', 29), ('job', 'Teacher')])
 
 print(info['name'])      # Timur
 print(info['salary'])    # 0 т.к. ключ не определен, по умолчанию указан `int`
+```
+
+```python
+from collections import defaultdict 
+info = defaultdict(lambda: '1000000$', {'name': 'Timur', 'age': 29, 'job': 'Teacher'}) 
+print(info['name']) 
+print(info['salary'])   # выведет 1000000$
 ```
