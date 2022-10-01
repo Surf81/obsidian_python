@@ -10,6 +10,15 @@
 - При создании `defaultdict` словаря можно указывать не только тип данных для значений по умолчанию, но и любую функцию, **не принимающую аргументов** и **возвращающую некоторое дефолтное значение**
 - Тип `defaultdict` работает быстрее чем использование методов `setdefault()` и `get()` обычного словаря (тип `dict`).
 
+#### атрибут `default_factory`:
+Возвращает тип значения по умолчанию и позволяет изменить его
+from collections import defaultdict
+
+a = defaultdict(int)
+print(a.default_factory)
+a.default_factory = list
+print(a.default_factory)
+
 ```python
 from collections import defaultdict 
 
