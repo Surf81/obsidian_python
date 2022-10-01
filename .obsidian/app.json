@@ -1,0 +1,10 @@
+{
+  "promptDelete": false,
+  "fileSortOrder": "alphabetical",
+  "attachmentFolderPath": "./_attachments",
+  "useMarkdownLinks": true,
+  "newLinkFormat": "relative",
+  "newFileLocation": "current",
+  "alwaysUpdateLinks": true,
+  "livePreview": true
+}
