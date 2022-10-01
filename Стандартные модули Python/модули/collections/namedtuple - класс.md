@@ -27,6 +27,11 @@ print(type(point))                  # <class '__main__.Point'>
 ## Атрибуты объекта класса `namedtuple`
 - - -
 - **\_fields** - возвращает кортеж имен полей именованного кортежа (можно создавать новые именованные кортежи на основании уже существующих)
+```python
+from collections import namedtuple
+Game = namedtuple('Game', 'name developer publisher')
+ExtendedGame = namedtuple('ExtendedGame', [*Game._fields, 'release_date', 'price'])
+```
 - **\_field_defaults** - возвращает значения полей по умолчанию (если они есть) в виде словаря `dict`
 
 

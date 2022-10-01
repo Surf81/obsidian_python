@@ -23,7 +23,7 @@
           "type": "markdown",
           "state": {
             "file": "Стандартные модули Python/модули/collections/namedtuple - класс.md",
-            "mode": "source",
+            "mode": "preview",
             "source": false
           }
         },
@@ -142,7 +142,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "b9f657edf0aa0237",
+  "active": "b547be664af22b26",
   "lastOpenFiles": [
     "Стандартные модули Python/модули/collections/Без названия.md",
     "Стандартные модули Python/модули/collections/namedtuple - класс.md",
