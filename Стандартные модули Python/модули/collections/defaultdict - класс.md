@@ -1,6 +1,23 @@
 # Класс `defaultdict` модуля [collections](_collections%20-%20модуль.md)
 #defaultdict #словарь #удобство
 ***
+## Атрибуты `defaultdict`
+***
+
+### `default_factory`:
+Возвращает тип значения по умолчанию и позволяет изменить его. По умолчанию `None` - в этом случае `defaultdict` ведет себя как обычный `dict`
+```python
+from collections import defaultdict
+
+a = defaultdict(int)
+print(a.default_factory)  # <class 'int'>
+a.default_factory = list
+print(a.default_factory)  # <class 'list'>
+```
+
+## Методы `defaultdict`
+***
+
 ### defaultdict(type, \*\*kwargs):
 Создает словарь с предустановленными значениями заранее не определенных ключей, а так же с предопределенными ключами.
 Все методы доступные для обычных словарей (тип [dict](../../../Встроенные%20возможности%20Python/dict/_dict%20-%20тип%20данных.md)), также доступны и для `defaultdict` словарей.
@@ -9,15 +26,6 @@
 - можно сравнивать обычные словари (тип `dict`) и `defaultdict` словари.
 - При создании `defaultdict` словаря можно указывать не только тип данных для значений по умолчанию, но и любую функцию, **не принимающую аргументов** и **возвращающую некоторое дефолтное значение**
 - Тип `defaultdict` работает быстрее чем использование методов `setdefault()` и `get()` обычного словаря (тип `dict`).
-
-#### атрибут `default_factory`:
-Возвращает тип значения по умолчанию и позволяет изменить его
-from collections import defaultdict
-
-a = defaultdict(int)
-print(a.default_factory)
-a.default_factory = list
-print(a.default_factory)
 
 ```python
 from collections import defaultdict 
@@ -36,3 +44,4 @@ info = defaultdict(lambda: '1000000$', {'name': 'Timur', 'age': 29, 'job': 'Teac
 print(info['name']) 
 print(info['salary'])   # выведет 1000000$
 ```
+
