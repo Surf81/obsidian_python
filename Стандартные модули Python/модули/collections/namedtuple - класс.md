@@ -19,6 +19,8 @@ print(type(point))                  # <class '__main__.Point'>
 
 ## Методы класса `namedtuple`
 ***
+- **[namedtuple](#namedtuple)** - создание объекта
+
 
 ### `namedtuple()`: 
 выступает в роли **фабричной функции**, порождающей новые типы данных.
