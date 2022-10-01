@@ -19,8 +19,9 @@ print(type(point))                  # <class '__main__.Point'>
 
 ## Методы класса `namedtuple`
 ***
-- **[namedtuple](#namedtuple)** - создание объекта
-
+- **[namedtuple()](#namedtuple)** - создание объекта
+- **[_asdict](#_asdict)** - преобразование именованного кортежа в список с парами значений
+- 
 
 ### `namedtuple()`: 
 выступает в роли **фабричной функции**, порождающей новые типы данных.
@@ -94,3 +95,17 @@ point = Point(1, 2)
 print(type(point))     # <class 'customtypes.Point'>
 ```
 
+### `_replace()`:
+Быстрое изменение именованного кортежа
+```python
+from collections import namedtuple
+
+New_namedtuple  = namedtuple('MyType', 'x y'
+p = New_namedtuple(10, 20)
+p = p._replace(x=100)
+
+print(p)      # MyType(x=100, y=20)
+```
+
+### `_asdict()`:
+Преобразование в список с парами значений
