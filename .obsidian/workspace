@@ -142,17 +142,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "b9f657edf0aa0237",
+  "active": "4711eaf31e82bf43",
   "lastOpenFiles": [
-    "Стандартные модули Python/модули/collections/_collections - модуль.md",
+    "Встроенные возможности Python/dict/_dict - тип данных.md",
+    "Встроенные возможности Python/tuple/_tuple - тип данных.md",
+    "Встроенные возможности Python/str/_str - тип данных.md",
     "Стандартные модули Python/модули/collections/defaultdict - класс.md",
+    "Стандартные модули Python/модули/collections/_collections - модуль.md",
     "Стандартные модули Python/модули/collections/namedtuple - класс.md",
     "Стандартные модули Python/01. Модули по алфавиту.md",
     "Дополнительные модули Python/дополнительные модули.md",
     "Стандартные модули Python/модули/csv/_csv - модуль.md",
-    "Встроенные возможности Python/str/_str - тип данных.md",
-    "Встроенные возможности Python/tuple/_tuple - тип данных.md",
-    "Встроенные возможности Python.md",
-    "Стандартные модули Python/модули/string/_string - модуль.md"
+    "Встроенные возможности Python.md"
   ]
 }
