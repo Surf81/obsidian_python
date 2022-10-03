@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Стандартные модули Python/модули/collections/_Counter - класс.md",
+            "file": "Стандартные модули Python/модули/collections/_ChainMap - класс.md",
             "mode": "source",
             "source": false
           }
@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Стандартные модули Python/модули/collections/_Counter - класс.md",
+            "file": "Стандартные модули Python/модули/collections/_ChainMap - класс.md",
             "mode": "preview",
             "source": false
           }
@@ -91,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Стандартные модули Python/модули/collections/_Counter - класс.md",
+                "file": "Стандартные модули Python/модули/collections/_ChainMap - класс.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Стандартные модули Python/модули/collections/_Counter - класс.md",
+                "file": "Стандартные модули Python/модули/collections/_ChainMap - класс.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Стандартные модули Python/модули/collections/_Counter - класс.md"
+                "file": "Стандартные модули Python/модули/collections/_ChainMap - класс.md"
               }
             }
           }
@@ -144,15 +144,15 @@
   },
   "active": "b9f657edf0aa0237",
   "lastOpenFiles": [
-    "Стандартные модули Python/модули/collections/_collections - модуль.md",
     "Стандартные модули Python/модули/collections/_Counter - класс.md",
+    "Стандартные модули Python/модули/collections/_ChainMap - класс.md",
+    "Стандартные модули Python/модули/collections/_collections - модуль.md",
     "Стандартные модули Python/модули/collections/_OrderedDict - класс.md",
     "Стандартные модули Python/модули/collections/defaultdict - класс.md",
     "Встроенные возможности Python/dict/_dict - тип данных.md",
     "Встроенные возможности Python/tuple/_tuple - тип данных.md",
     "Встроенные возможности Python/str/_str - тип данных.md",
     "Стандартные модули Python/модули/collections/namedtuple - класс.md",
-    "Стандартные модули Python/01. Модули по алфавиту.md",
-    "Дополнительные модули Python/дополнительные модули.md"
+    "Стандартные модули Python/01. Модули по алфавиту.md"
   ]
 }
