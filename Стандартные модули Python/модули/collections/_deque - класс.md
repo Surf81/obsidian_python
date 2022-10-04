@@ -30,5 +30,9 @@ dq = collections.deque([iterable[, maxlen]])
 ### `extendleft(iterable)`:
 расширение контейнера `deque` с левой стороны (с начала). При расширении значения параметра `iterable` меняют порядок на обратный
 Для расширения с конца используется `extend()` класса [list](../../../Встроенные%20возможности%20Python/list/_list%20-%20тип%20данных.md)
-
+```python
+dq.extendleft('ab')
+print(dq)
+# deque(['b', 'a', 'f', 'g', 'h', 'i', 'j', 'g', 'j', 'k', 'l'])
+```
 
