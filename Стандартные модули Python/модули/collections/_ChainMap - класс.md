@@ -43,3 +43,24 @@ b['elem'] = 2000
 print(*d.items())  # ('c', 5) ('d', 5) ('e', 3) ('b', 1) ('elem', 2000) ('a', 1) ('new', 1000)
 ```
 
+## Атрибуты и методы `ChainMap`
+***
+### `maps`:
+Список `list` содержащий добавленные словари. Поддерживает все методы объекта `list()`
+```python
+pets = ChainMap(for_adoption, vet_treatment) 
+pets.maps.reverse() 
+pets.maps[0]['lions'] = 10 
+del pets.maps[1]['cats']
+```
+
+### `new_child(m=None)`:
+Возвращает новый объект `ChainMap` добавлением словаря, указанного в параметре, в начало списка `maps`. Если параметр не указан, создается новый пустой словарь, который так же помещается в начало списка
+```python
+from collections import ChainMap 
+dad = {'name': 'Timur', 'age': 29} 
+mom = {'name': 'Rosaly', 'age': 28} 
+old_family = ChainMap(dad, mom) 
+son = {'name': 'Soslan', 'age': 0} 
+new_family = old_family.new_child(son)
+```
