@@ -16,7 +16,7 @@ finally:
 	# вызывается в любом случае: и если были исключения и если не были
 ```
 
-Секция `finally` исполняется всегда, даже если до нее был вызван `return`, `break`, `continue`
+Секция `finally` исполняется всегда, даже если до нее был вызван `return`, `break`, `continue` При этом `finally` вызывается первым
 ```python
 def func():
     try:
@@ -24,12 +24,30 @@ def func():
     finally:
         print('Выполняется блок finally!')
 
-print(func())
-# выводит:
-# Выполняется блок finally!
-# 10
+print(func()) # выводит:  Выполняется блок finally!
+              #           10
+
+def func(): 
+try: 
+	return 10 
+finally: 
+	return 20 
+
+print(func())  # выведет 20
 ```
 
+Блок else не выполняется если было вызвано прерывание или возврат
+```python
+def f(): 
+try: 
+	return 10 
+except: 
+	pass 
+else: 
+	return 20 
+
+print(f())     # выведет 10
+```
 
 ## Список исключений
 ***
