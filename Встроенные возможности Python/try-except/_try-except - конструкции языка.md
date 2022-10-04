@@ -9,7 +9,7 @@ except (ExceptName1, ExceptName2, ExceptName3):
 except ExceptName:
 	# при наступлении конкретного исключения
 except (ExceptName1, ExceptName2) as Err:
-	# запоминает вид исключения в переменной
+	# запоминает вид исключения в переменной Err
 except:
 	# при наступлении любого, ранее не указанного исключения
 else:
