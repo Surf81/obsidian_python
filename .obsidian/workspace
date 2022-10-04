@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Встроенные возможности Python/try-except/_try-except - конструкции языка.md",
+            "file": "Стандартные модули Python/модули/calendar/_calendar - модуль.md",
             "mode": "source",
             "source": false
           }
@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Встроенные возможности Python/try-except/_try-except - конструкции языка.md",
+            "file": "Стандартные модули Python/модули/calendar/_calendar - модуль.md",
             "mode": "preview",
             "source": false
           }
@@ -91,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Встроенные возможности Python/try-except/_try-except - конструкции языка.md",
+                "file": "Стандартные модули Python/модули/calendar/_calendar - модуль.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Встроенные возможности Python/try-except/_try-except - конструкции языка.md",
+                "file": "Стандартные модули Python/модули/calendar/_calendar - модуль.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Встроенные возможности Python/try-except/_try-except - конструкции языка.md"
+                "file": "Стандартные модули Python/модули/calendar/_calendar - модуль.md"
               }
             }
           }
@@ -144,15 +144,15 @@
   },
   "active": "b9f657edf0aa0237",
   "lastOpenFiles": [
+    "Стандартные модули Python/модули/datetime/datetime - методы.md",
+    "Стандартные модули Python/модули/datetime/datetime - класс.md",
+    "Стандартные модули Python/модули/datetime/_datetime - модуль.md",
+    "Стандартные модули Python/01. Модули по алфавиту.md",
+    "Встроенные возможности Python/try-except/_try-except - конструкции языка.md",
     "Стандартные модули Python/02. Модули по назначению.md",
     "Стандартные модули Python/модули/collections/_deque - класс.md",
     "Стандартные модули Python/модули/heapq/_heapq - модуль.md",
-    "Стандартные модули Python/01. Модули по алфавиту.md",
     "Стандартные модули Python/модули/array/_array - модуль.md",
-    "Стандартные модули Python/модули/calendar/_calendar - модуль.md",
-    "Встроенные возможности Python/tuple/_tuple - тип данных.md",
-    "Встроенные возможности Python/list/_list - тип данных.md",
-    "Встроенные возможности Python/dict/_dict - тип данных.md",
-    "Встроенные возможности Python/str/_str - тип данных.md"
+    "Стандартные модули Python/модули/calendar/_calendar - модуль.md"
   ]
 }
