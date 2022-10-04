@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Стандартные модули Python/модули/collections/_collections - модуль.md",
+            "file": "Стандартные модули Python/модули/collections/_deque - класс.md",
             "mode": "source",
             "source": false
           }
@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Стандартные модули Python/модули/collections/_collections - модуль.md",
+            "file": "Стандартные модули Python/модули/collections/_deque - класс.md",
             "mode": "preview",
             "source": false
           }
@@ -91,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Стандартные модули Python/модули/collections/_collections - модуль.md",
+                "file": "Стандартные модули Python/модули/collections/_deque - класс.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Стандартные модули Python/модули/collections/_collections - модуль.md",
+                "file": "Стандартные модули Python/модули/collections/_deque - класс.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Стандартные модули Python/модули/collections/_collections - модуль.md"
+                "file": "Стандартные модули Python/модули/collections/_deque - класс.md"
               }
             }
           }
@@ -144,11 +144,11 @@
   },
   "active": "b9f657edf0aa0237",
   "lastOpenFiles": [
+    "Стандартные модули Python/модули/collections/_collections - модуль.md",
+    "Стандартные модули Python/модули/collections/_OrderedDict - класс.md",
     "Стандартные модули Python/модули/collections/_deque - класс.md",
     "Стандартные модули Python/модули/collections/_ChainMap - класс.md",
     "Стандартные модули Python/модули/collections/_Counter - класс.md",
-    "Стандартные модули Python/модули/collections/_collections - модуль.md",
-    "Стандартные модули Python/модули/collections/_OrderedDict - класс.md",
     "Стандартные модули Python/модули/collections/defaultdict - класс.md",
     "Встроенные возможности Python/dict/_dict - тип данных.md",
     "Встроенные возможности Python/tuple/_tuple - тип данных.md",
