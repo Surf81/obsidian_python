@@ -144,15 +144,15 @@
   },
   "active": "b9f657edf0aa0237",
   "lastOpenFiles": [
+    "Встроенные возможности Python/tuple/_tuple - тип данных.md",
+    "Встроенные возможности Python/list/_list - тип данных.md",
+    "Встроенные возможности Python/dict/_dict - тип данных.md",
+    "Встроенные возможности Python/str/_str - тип данных.md",
+    "Стандартные модули Python/модули/collections/_deque - класс.md",
     "Стандартные модули Python/модули/collections/_collections - модуль.md",
     "Стандартные модули Python/модули/collections/_OrderedDict - класс.md",
-    "Стандартные модули Python/модули/collections/_deque - класс.md",
     "Стандартные модули Python/модули/collections/_ChainMap - класс.md",
     "Стандартные модули Python/модули/collections/_Counter - класс.md",
-    "Стандартные модули Python/модули/collections/defaultdict - класс.md",
-    "Встроенные возможности Python/dict/_dict - тип данных.md",
-    "Встроенные возможности Python/tuple/_tuple - тип данных.md",
-    "Встроенные возможности Python/str/_str - тип данных.md",
-    "Стандартные модули Python/модули/collections/namedtuple - класс.md"
+    "Стандартные модули Python/модули/collections/defaultdict - класс.md"
   ]
 }
