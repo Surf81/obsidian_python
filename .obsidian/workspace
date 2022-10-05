@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Встроенные возможности Python/Операторы и выражения в Python.md",
+            "file": "Встроенные возможности Python/Побитовые операторы.md",
             "mode": "source",
             "source": false
           }
@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Встроенные возможности Python/Операторы и выражения в Python.md",
+            "file": "Встроенные возможности Python/Побитовые операторы.md",
             "mode": "preview",
             "source": false
           }
@@ -91,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Встроенные возможности Python/Операторы и выражения в Python.md",
+                "file": "Встроенные возможности Python/Побитовые операторы.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Встроенные возможности Python/Операторы и выражения в Python.md",
+                "file": "Встроенные возможности Python/Побитовые операторы.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Встроенные возможности Python/Операторы и выражения в Python.md"
+                "file": "Встроенные возможности Python/Побитовые операторы.md"
               }
             }
           }
@@ -144,6 +144,7 @@
   },
   "active": "b9f657edf0aa0237",
   "lastOpenFiles": [
+    "Встроенные возможности Python/Операторы и выражения в Python.md",
     "Встроенные возможности Python/Побитовые операторы.md",
     "Встроенные возможности Python/try-except/_try-except - конструкции языка.md",
     "Стандартные модули Python/модули/string/_string - модуль.md",
@@ -152,7 +153,6 @@
     "Стандартные модули Python/02. Модули по назначению.md",
     "Стандартные модули Python/01. Модули по алфавиту.md",
     "Стандартные модули Python/модули/collections/_OrderedDict - класс.md",
-    "Стандартные модули Python/модули/collections/namedtuple - класс.md",
-    "Стандартные модули Python/модули/collections/_collections - модуль.md"
+    "Стандартные модули Python/модули/collections/namedtuple - класс.md"
   ]
 }
