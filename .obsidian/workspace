@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Стандартные модули Python/02. Модули по назначению.md",
+            "file": "Встроенные возможности Python/try-except/_try-except - конструкции языка.md",
             "mode": "source",
             "source": false
           }
@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Стандартные модули Python/02. Модули по назначению.md",
+            "file": "Встроенные возможности Python/try-except/_try-except - конструкции языка.md",
             "mode": "preview",
             "source": false
           }
@@ -91,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Стандартные модули Python/02. Модули по назначению.md",
+                "file": "Встроенные возможности Python/try-except/_try-except - конструкции языка.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Стандартные модули Python/02. Модули по назначению.md",
+                "file": "Встроенные возможности Python/try-except/_try-except - конструкции языка.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Стандартные модули Python/02. Модули по назначению.md"
+                "file": "Встроенные возможности Python/try-except/_try-except - конструкции языка.md"
               }
             }
           }
@@ -144,6 +144,8 @@
   },
   "active": "b9f657edf0aa0237",
   "lastOpenFiles": [
+    "Встроенные возможности Python/dict/_dict - тип данных.md",
+    "Стандартные модули Python/02. Модули по назначению.md",
     "Стандартные модули Python/01. Модули по алфавиту.md",
     "Встроенные возможности Python/try-except/_try-except - конструкции языка.md",
     "Стандартные модули Python/модули/collections/_OrderedDict - класс.md",
@@ -151,8 +153,6 @@
     "Стандартные модули Python/модули/collections/_collections - модуль.md",
     "Стандартные модули Python/модули/calendar/_calendar - модуль.md",
     "Стандартные модули Python/модули/datetime/datetime - методы.md",
-    "Стандартные модули Python/модули/datetime/datetime - класс.md",
-    "Стандартные модули Python/модули/datetime/_datetime - модуль.md",
-    "Стандартные модули Python/02. Модули по назначению.md"
+    "Стандартные модули Python/модули/datetime/datetime - класс.md"
   ]
 }
