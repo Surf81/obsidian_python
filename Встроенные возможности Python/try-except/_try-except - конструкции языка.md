@@ -67,9 +67,15 @@ class MyError(Exception):
 raise MyError("ошибка MyError")
 ```
 
+### `issubclass()`:
+Проверка на вложенность в [Деревe встроенных исключений](#Дерево%20встроенных%20исключений)
+```python
+issubclass(ZeroDivisionError, ArithmeticError) # True
+```
+
 ## Список стандартных исключений
 ***
-**Дерево встроенных исключений**:
+### **Дерево встроенных исключений**:
 
 ```no-highlight
 BaseException
