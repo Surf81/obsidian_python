@@ -102,3 +102,15 @@ print(sorted(s, key=get_index)) # сортировка по имени
 #итераторы
 
 Доступ к методам класса. Идея состоит в том, чтобы создать вызываемый объект, который вызывает метод для своего операнда
+```python
+import operator
+
+s = 'AsdOkxVmNW'
+
+get_method = operator.methodcaller("islower")
+print(sorted(s, key=get_method))
+
+# выведет
+
+['A', 'O', 'V', 'N', 'W', 's', 'd', 'k', 'x', 'm']
+```
