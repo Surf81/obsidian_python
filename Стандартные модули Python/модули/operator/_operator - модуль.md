@@ -55,8 +55,9 @@
 
 ## Общий интерфейс поиска атрибутов и элементов
 
-### `attrgetter(atribute: str)`:
-Доступ к элементам по имени атрибута
+### `attrgetter(*atribute: str)`:
+#сортировка #фильтрация
+Доступ к элементам по имени атрибута(ов)
 
 Создает "шаблон подстановки" значения атрибута, актуального для набора объектов при обработке последовательностей (например при сотрировке)
 ```python
@@ -76,5 +77,23 @@ print(list(filter(get_attr, s)))
 
 
 ### `itemgetter(*index: int)`:
-Доступ к элементам по индексу
+#сортировка #фильтрация
+Доступ к элементам по индексу(ам)
+```python
+import operator
+s = [(0, 'oleg', 'ivanov'), (1, 'ivan', 'petrov'), (2, 'fedor', 'stepanov'), 
+	 (3, 'alex', 'ivanov')]
 
+get_index = operator.itemgetter(2, 1)
+print(sorted(s, key=get_index)) # сортировка по фамилии и имени
+								# [(3, 'alex', 'ivanov'), (0, 'oleg', 'ivanov'),
+								# (1, 'ivan', 'petrov'), (2, 'fedor', 'stepanov')]
+
+get_index = operator.itemgetter(1)
+print(sorted(s, key=get_index)) # сортировка по имени
+                                # [(3, 'alex', 'ivanov'), (2, 'fedor', 'stepanov'),
+                                # (1, 'ivan', 'petrov'), (0, 'oleg', 'ivanov')]
+```
+
+
+### `methodcaller()`:
