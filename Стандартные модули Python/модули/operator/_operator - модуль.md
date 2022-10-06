@@ -55,10 +55,10 @@
 
 ## Общий интерфейс поиска атрибутов и элементов
 
-### `attrgetter()`:
+### `attrgetter(atribute: str)`:
 Доступ к элементам по имени атрибута
 
-Создает "шаблон подстанови" значения атрибута, актуального для набора объектов при обработке последовательностей
+Создает "шаблон подстановки" значения атрибута, актуального для набора объектов при обработке последовательностей (например при сотрировке)
 ```python
 import operator
 class S:
@@ -69,8 +69,12 @@ class S:
     def __repr__(self) -> str:
         return f"Student(islower={self.islower})"
 
-s = [S(True), S(False)]
+s = [S(True), S(False)]  # в списке любые объекты, имеющие атрибут islower
 get_attr = operator.attrgetter("islower")
 print(list(filter(get_attr, s)))
 ```
+
+
+### `itemgetter(*index: int)`:
+Доступ к элементам по индексу
 
