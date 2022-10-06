@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Стандартные модули Python/01. Модули по алфавиту.md",
+            "file": "Стандартные модули Python/модули/itertools/_itertools - модуль.md",
             "mode": "source",
             "source": false
           }
@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Стандартные модули Python/01. Модули по алфавиту.md",
+            "file": "Стандартные модули Python/модули/itertools/_itertools - модуль.md",
             "mode": "preview",
             "source": false
           }
@@ -91,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Стандартные модули Python/01. Модули по алфавиту.md",
+                "file": "Стандартные модули Python/модули/itertools/_itertools - модуль.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Стандартные модули Python/01. Модули по алфавиту.md",
+                "file": "Стандартные модули Python/модули/itertools/_itertools - модуль.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Стандартные модули Python/01. Модули по алфавиту.md"
+                "file": "Стандартные модули Python/модули/itertools/_itertools - модуль.md"
               }
             }
           }
@@ -144,6 +144,7 @@
   },
   "active": "b9f657edf0aa0237",
   "lastOpenFiles": [
+    "Стандартные модули Python/01. Модули по алфавиту.md",
     "Стандартные модули Python/модули/sys/_sys - модуль.md",
     "Встроенные возможности Python/Рекурсия.md",
     "Встроенные возможности Python/Побитовые операторы.md",
@@ -152,7 +153,6 @@
     "Стандартные модули Python/модули/string/_string - модуль.md",
     "Встроенные возможности Python/str/_str - тип данных.md",
     "Встроенные возможности Python/dict/_dict - тип данных.md",
-    "Стандартные модули Python/02. Модули по назначению.md",
-    "Стандартные модули Python/01. Модули по алфавиту.md"
+    "Стандартные модули Python/02. Модули по назначению.md"
   ]
 }
