@@ -57,3 +57,19 @@
 
 ### `attrgetter()`:
 Доступ к элементам по имени атрибута
+
+Создает "шаблон подстанови" значения атрибута объекта
+```python
+import operator
+class S:
+    def __init__(self, islower: int) -> None:
+        self.islower: bool = islower
+
+
+    def __repr__(self) -> str:
+        return f"Student(islower={self.islower})"
+
+s = [S(True), S(False)]
+get_attr = operator.attrgetter("islower")
+print(list(filter(get_attr, s)))
+```
