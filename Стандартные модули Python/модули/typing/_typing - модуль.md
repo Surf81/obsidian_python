@@ -20,3 +20,31 @@ prices: dict[str, int]                    # тип ключей, тип знач
 answers: set[float]                       # тип всех элементов множества
 ```
 
+## Полезные типы модуля typing
+
+Многие типы из модуля `typing` позволяют работать с несколькими типами одновременно. К наиболее часто используемым типам модуля `typing` относятся:
+-   [Union](#Union) - параметр одного из заданных типов
+-   `Optional`
+-   `Any`
+-   `NoReturn`
+
+### `Union`:
+Используется если параметр может содержать различный тип данных из ограниченного количества типов
+
+```python
+from typing import Union
+
+def add_or_concatenate(a: Union[int, float, str], b: Union[int, float, str]) -> Union[int, float, str]:
+    return a + b
+```
+
+Приведенный выше код можно записать в виде:
+
+```python
+from typing import Union
+
+NumberOrStr = Union[int, float, str]
+
+def add_or_concatenate(a: NumberOrStr, b: NumberOrStr) -> NumberOrStr:
+    return a + b
+```
