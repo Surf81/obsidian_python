@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Стандартные модули Python/модули/operator/_operator - модуль.md",
+            "file": "Встроенные возможности Python/Встроенные функции/встроенные функции по алфавиту.md",
             "mode": "source",
             "source": false
           }
@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Стандартные модули Python/модули/operator/_operator - модуль.md",
+            "file": "Встроенные возможности Python/Встроенные функции/встроенные функции по алфавиту.md",
             "mode": "preview",
             "source": false
           }
@@ -71,8 +71,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -92,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Стандартные модули Python/модули/operator/_operator - модуль.md",
+                "file": "Встроенные возможности Python/Встроенные функции/встроенные функции по алфавиту.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Стандартные модули Python/модули/operator/_operator - модуль.md",
+                "file": "Встроенные возможности Python/Встроенные функции/встроенные функции по алфавиту.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Стандартные модули Python/модули/operator/_operator - модуль.md"
+                "file": "Встроенные возможности Python/Встроенные функции/встроенные функции по алфавиту.md"
               }
             }
           }
@@ -146,10 +145,10 @@
   "active": "b9f657edf0aa0237",
   "lastOpenFiles": [
     "Встроенные возможности Python/Встроенные функции/_встроенные функции Python.md",
+    "Стандартные модули Python/модули/operator/_operator - модуль.md",
     "Встроенные возможности Python/try-except/_try-except - конструкции языка.md",
     "Встроенные возможности Python/Встроенные функции/встроенные функции по назначению.md",
     "Стандартные модули Python/модули/string/_string - модуль.md",
-    "Стандартные модули Python/модули/operator/_operator - модуль.md",
     "Стандартные модули Python/02. Модули по назначению.md",
     "Стандартные модули Python/модули/itertools/_itertools - модуль.md",
     "Встроенные возможности Python/Встроенные функции/встроенные функции по алфавиту.md",
