@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Стандартные модули Python/02. Модули по назначению.md",
+            "file": "Стандартные модули Python/модули/typing/_typing - модуль.md",
             "mode": "source",
             "source": false
           }
@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Стандартные модули Python/02. Модули по назначению.md",
+            "file": "Стандартные модули Python/модули/typing/_typing - модуль.md",
             "mode": "preview",
             "source": false
           }
@@ -91,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Стандартные модули Python/02. Модули по назначению.md",
+                "file": "Стандартные модули Python/модули/typing/_typing - модуль.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Стандартные модули Python/02. Модули по назначению.md",
+                "file": "Стандартные модули Python/модули/typing/_typing - модуль.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Стандартные модули Python/02. Модули по назначению.md"
+                "file": "Стандартные модули Python/модули/typing/_typing - модуль.md"
               }
             }
           }
@@ -144,9 +144,9 @@
   },
   "active": "b9f657edf0aa0237",
   "lastOpenFiles": [
+    "Стандартные модули Python/02. Модули по назначению.md",
     "Стандартные модули Python/модули/typing/_typing - модуль.md",
     "Встроенные возможности Python/Встроенные функции/_встроенные функции Python.md",
-    "Стандартные модули Python/02. Модули по назначению.md",
     "Стандартные модули Python/01. Модули по алфавиту.md",
     "Встроенные возможности Python/Встроенные функции/встроенные функции по алфавиту.md",
     "Стандартные модули Python/модули/operator/_operator - модуль.md",

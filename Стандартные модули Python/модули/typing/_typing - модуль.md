@@ -44,7 +44,7 @@ def add_or_concatenate(a: Union[int, float, str], b: Union[int, float, str]) -> 
 ```python
 from typing import Union
 
-NumberOrStr = Union[int, float, str]
+NumberOrStr : TypeAlias = Union[int, float, str]
 
 def add_or_concatenate(a: NumberOrStr, b: NumberOrStr) -> NumberOrStr:
     return a + b
@@ -88,3 +88,16 @@ from typing import NoReturn
 def stop() -> NoReturn:
     raise RuntimeError('no way')
 ```
+
+### `TypeAlias`:
+Для явного обозначения псевдонима типа
+
+```python
+from typing import Union
+
+NumberOrStr : TypeAlias = Union[int, float, str]
+
+def add_or_concatenate(a: NumberOrStr, b: NumberOrStr) -> NumberOrStr:
+    return a + b
+```
+
