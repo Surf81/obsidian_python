@@ -1,9 +1,39 @@
 # Модуль `functools`
 ***
-- [partial function args](#partial%20function%20args)
+## Методы класса `functools` модуля `functools`
+- **[partial(function, args, kwargs)](#partial%20function%20args%20kwargs)** - частичное применение функции
+- **[reduce(function, iterable, inintializer)](#reduce%20function%20iterable%20inintializer)** - аккумулятор вычислений
+- **[wraps()](#wraps)** - универсальный декоратор
 
-### `partial(function, *args)`:
+### `partial(function, *args, **kwargs)`:
 Функция `partial()` возвращает `partial` объект, который при вызове ведет себя как функция c подставленными в нее значениями `args`
+
+`partial` объекты содержат три полезных атрибута:
+-   `func` — исходная функция
+-   `args` — зафиксированные позиционные аргументы (тип `tuple`)
+-   `keywords` — зафиксированные именованные аргументы (тип `dict`)
+
+```python
+from functools import partial
+
+def multiply(a, b):
+    return a * b
+
+double = partial(multiply, 2)
+triple = partial(multiply, 3)
+
+print(double(5))        # 2 * 5
+print(triple(10))       # 3 * 10
+```
+
+В указанном случае `partial` объекты `double` и `triple` ведут себя как функция `multiply()`, которой в качестве первого аргумента передали число 2 в первом случае и 3 во втором. 
+
+```python
+from functools import partial 
+basetwo = partial(int, base=2) 
+
+print(basetwo('101'))    # выведет 5 (перевод из двоичного счисления)
+```
 
 ### `reduce(function, iterable, inintializer)`:
 #### Параметры:
