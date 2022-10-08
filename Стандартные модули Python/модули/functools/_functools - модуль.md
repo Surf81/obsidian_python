@@ -1,10 +1,24 @@
 # Модуль `functools`
 ***
 ## Методы класса `functools` модуля `functools`
+- **[lru_cache](#lru_cache)** - декоратор кеширования вычисляемых значений функции
 - **[partial(function, args, kwargs)](#partial%20function%20args%20kwargs)** - частичное применение функции
 - **[reduce(function, iterable, inintializer)](#reduce%20function%20iterable%20inintializer)** - аккумулятор вычислений
 - **[update_wrapper(wrapper, wrapped)](#update_wrapper%20wrapper%20wrapped)** - обновление атрибутов функции-обертки. 
-- **[wraps()](#wraps)** - универсальный декоратор
+- **[wraps()](#wraps)** - декоратор сохранения атрибутов функции
+
+### `lru_cache()`:
+Декоратор функции для кеширования результатов выполнения функции в соответствии со стратегией очищения стека Least Recently Used (из стека кэша удаляются наиболее долго не использованные значения)
+```python
+from functools import lru_cache 
+
+@lru_cache() 
+def fibonacci(n): 
+	if n <= 2: 
+		return 1 
+	else: 
+		return fibonacci(n - 1) + fibonacci(n - 2)
+```
 
 ### `partial(function, *args, **kwargs)`:
 Функция `partial()` возвращает `partial` объект, который при вызове ведет себя как функция c подставленными в нее значениями `args`
