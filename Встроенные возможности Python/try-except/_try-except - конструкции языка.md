@@ -97,6 +97,7 @@ issubclass(ZeroDivisionError, ArithmeticError) # True
 ```
 
 ## Список стандартных исключений
+#exceptions #exceptionlist
 ***
 ### **Дерево встроенных исключений**:
 
