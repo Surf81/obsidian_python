@@ -110,6 +110,18 @@ False
 ```
 
 
+### `enumerate(sequence, start=0)`:
+#итераторы 
+
+#### Параметры:
+
+-   `sequence` - [любая последовательность](https://docs-python.ru/tutorial/osnovnye-vstroennye-tipy-python/tipy-posledovatelnostej/ "Типы последовательностей в Python."), [итератор](https://docs-python.ru/tutorial/osnovnye-vstroennye-tipy-python/tip-dannyh-iterator-iterator/ "Тип данных Iterator, итератор в Python."), или объект, поддерживающий метод итератора `__next__()`,
+-   `start` - число [`int`](https://docs-python.ru/tutorial/osnovnye-vstroennye-tipy-python/tip-dannyh-int-tselye-chisla/ "Тип данных int, целые числа в Python."), начальное значение счётчика.
+
+#### Возвращаемое значение:
+
+-   [`tuple`](https://docs-python.ru/tutorial/osnovnye-vstroennye-tipy-python/tip-dannyh-tuple-kortezh/ "Тип данных tuple, кортеж в Python.") - кортеж, содержащий пары ('счётчик', 'элемент') для элементов указанной последовательности.
+
 ### `eval(expression)`:
 #парсинг #выполнение_кода #эмулятор_интерпретатора
 
@@ -331,4 +343,6 @@ datetime.date(2022, 1, 16)
 ```
 
 
-
+### `reversed()`:
+#итераторы 
+Возвращает итератор с инвертированной (обратной) последовательностью
