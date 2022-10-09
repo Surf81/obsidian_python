@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Встроенные возможности Python/Встроенные функции/_встроенные функции Python.md",
+            "file": "Встроенные возможности Python/Встроенные функции/встроенные функции по назначению.md",
             "mode": "source",
             "source": false
           }
@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Встроенные возможности Python/Встроенные функции/_встроенные функции Python.md",
+            "file": "Встроенные возможности Python/Встроенные функции/встроенные функции по назначению.md",
             "mode": "preview",
             "source": false
           }
@@ -91,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Встроенные возможности Python/Встроенные функции/_встроенные функции Python.md",
+                "file": "Встроенные возможности Python/Встроенные функции/встроенные функции по назначению.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Встроенные возможности Python/Встроенные функции/_встроенные функции Python.md",
+                "file": "Встроенные возможности Python/Встроенные функции/встроенные функции по назначению.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Встроенные возможности Python/Встроенные функции/_встроенные функции Python.md"
+                "file": "Встроенные возможности Python/Встроенные функции/встроенные функции по назначению.md"
               }
             }
           }
@@ -144,6 +144,7 @@
   },
   "active": "b9f657edf0aa0237",
   "lastOpenFiles": [
+    "Встроенные возможности Python/Встроенные функции/_встроенные функции Python.md",
     "Стандартные модули Python/модули/functools/_functools - модуль.md",
     "Встроенные возможности Python/Декораторы.md",
     "Стандартные модули Python/01. Модули по алфавиту.md",
@@ -151,7 +152,6 @@
     "Встроенные возможности Python/try-except/_try-except - конструкции языка.md",
     "Стандартные модули Python/модули/collections/_deque - класс.md",
     "Стандартные модули Python/модули/collections/_collections - модуль.md",
-    "Встроенные возможности Python/Встроенные функции/_встроенные функции Python.md",
     "Стандартные модули Python/модули/typing/_typing - модуль.md",
     "Стандартные модули Python/02. Модули по назначению.md"
   ]
