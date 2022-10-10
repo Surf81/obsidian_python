@@ -400,6 +400,23 @@ datetime.date(2022, 1, 16)
 Для словаря `dict()` вернет обратную последовательность ключей словаря
 
 
+### `slice()`:
+Срез последовательности
+#### Параметры:
+-   `start` - тип [`int`](https://docs-python.ru/tutorial/osnovnye-vstroennye-tipy-python/tip-dannyh-int-tselye-chisla/ "Тип данных int, целые числа в Python."), начальный индекс среза;
+-   `stop` - тип [`int`](https://docs-python.ru/tutorial/osnovnye-vstroennye-tipy-python/tip-dannyh-int-tselye-chisla/ "Тип данных int, целые числа в Python."), конечный индекс среза (не будет входить в конечный результат);
+-   `step` - тип [`int`](https://docs-python.ru/tutorial/osnovnye-vstroennye-tipy-python/tip-dannyh-int-tselye-chisla/ "Тип данных int, целые числа в Python."), шаг, с которым нужно выбирать элементы.
+
+#### Возвращаемое значение:
+-   срез/часть объекта
+
+#### Описание:
+Иногда требуется получить из последовательности не один элемент, а сразу несколько или элементы по некоторой закономерности. Для этого существуют срезы. Надо отметить, что изначальная последовательность никак не меняется, объект `slice()` создает копию.
+
+Класс [`slice()`](https://docs-python.ru/tutorial/vstroennye-funktsii-interpretatora-python/klass-slice/ "Класс slice() в Python, шаблон среза.") вернет объект, представляющий срез/часть [последовательности](https://docs-python.ru/tutorial/osnovnye-vstroennye-tipy-python/tipy-posledovatelnostej/ "Типы последовательностей в Python."), которая будет следовать шаблону, указанному в аргументах. Возвращаемый объект среза представляет новый набор индексов начальной последовательности, заданных диапазоном `start`, `stop`, `step`, как в [`range()`](https://docs-python.ru/tutorial/vstroennye-funktsii-interpretatora-python/klass-range/ "Класс range() в Python, генерирует арифметические последовательности.").
+
+Срезы удобнее создать при помощи расширенного синтаксиса индексации, квадратных скобок `[]` с двоеточиями в качестве разделителей внутри. Например: `x[start:stop:step]` или `x[start:stop]`
+
 ### `zip(*iterables, strict=False)`:
 возвращает итератор типа `<class 'zip'>`, содержащий кортежи, где i-й кортеж содержит i-й элемент из каждого итерируемого объекта.
 

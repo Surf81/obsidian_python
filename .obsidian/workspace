@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Стандартные модули Python/модули/itertools/_itertools - модуль.md",
+            "file": "Встроенные возможности Python/Встроенные функции/_встроенные функции Python.md",
             "mode": "source",
             "source": false
           }
@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Стандартные модули Python/модули/itertools/_itertools - модуль.md",
+            "file": "Встроенные возможности Python/Встроенные функции/_встроенные функции Python.md",
             "mode": "preview",
             "source": false
           }
@@ -91,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Стандартные модули Python/модули/itertools/_itertools - модуль.md",
+                "file": "Встроенные возможности Python/Встроенные функции/_встроенные функции Python.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Стандартные модули Python/модули/itertools/_itertools - модуль.md",
+                "file": "Встроенные возможности Python/Встроенные функции/_встроенные функции Python.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Стандартные модули Python/модули/itertools/_itertools - модуль.md"
+                "file": "Встроенные возможности Python/Встроенные функции/_встроенные функции Python.md"
               }
             }
           }
@@ -144,8 +144,8 @@
   },
   "active": "b9f657edf0aa0237",
   "lastOpenFiles": [
-    "Стандартные модули Python/модули/string/_string - модуль.md",
     "Стандартные модули Python/модули/itertools/_itertools - модуль.md",
+    "Стандартные модули Python/модули/string/_string - модуль.md",
     "Встроенные возможности Python/Встроенные функции/_встроенные функции Python.md",
     "Встроенные возможности Python/Встроенные функции/встроенные функции по алфавиту.md",
     "Встроенные возможности Python/Итераторы и генераторы.md",
