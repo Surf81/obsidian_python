@@ -12,7 +12,7 @@
 ### Конечные итераторы
 - **[accumulate(iterable, func, initial)](#accumulate%20iterable%20func%20initial)** - аналог `reduce()` возвращающий в т.ч. промежуточные результаты
 - **chain**
-- ****
+- **[compress(iterable, selectors)](#compress%20iterable%20selectors)** - фильтр по маске логических значений
 - **[dropwhile(predicate, iterable)](#dropwhile%20predicate%20iterable)** - итератор значений, следующих после первого появление ложного результата условия `predicate`  (итератор не выдает значения, пока all(predicate = True)
 - **[takewhile(predicate, iterable)](#takewhile%20predicate%20iterable)** итератор значений, предшествующих первому появлению ложного результата условия `predicate`
 - **[filterfalse(predicate, iterable)](#filterfalse%20predicate%20iterable)** - функция, обратная встроенной `filter()`
@@ -78,6 +78,15 @@
 
 ### `islice(iterator, count)`:
 Вспомогательная функция для бесконечного итератора. Позволяет ограничить бесконечный итератор ограниченным количеством итераций
+
+**Аргументы функции:**
+-   `iterable` — итерируемый объект
+-   `start` — начало среза, по умолчанию имеет значение 00
+-   `stop` — конец среза (не включительно)
+-   `step` — шаг среза, по умолчанию имеет значение 11
+
+В отличие от обычных срезов списков (строк, кортежей), функция `islice()` не поддерживает отрицательные значения для `start`, `stop` или `step`.
+
 ```python
 from itertools import islice, count
 for i in islice(count(10), 5):   # ограничение на 5 итераций
