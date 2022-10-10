@@ -4,17 +4,22 @@
 ## Классы и методы модуля `itertools`
 ***
 ### Бесконечные итераторы
-- **[count(start, step)](#count%20start%200%20step%201)** - итератор чисел
-- **[islice(iterator)](#islice%20iterator)** - ограничитель бесконечного итератора
-- **[cycle(iterable)](#cycle%20iterable)** - цикличный итератор последовательности
-- **[repeat(obj, times=None)](#repeat%20obj%20times%20None)** - итератор возвращает одинаковое значение
+|      |      |
+|----|----|
+|**[count(start, step)](#count%20start%200%20step%201)**|итератор чисел|
+|**[islice(iterator)](#islice%20iterator)**|ограничитель бесконечного итератора|
+|**[cycle(iterable)](#cycle%20iterable)**|цикличный итератор последовательности|
+|**[repeat(obj, times=None)](#repeat%20obj%20times%20None)**|итератор возвращает одинаковое значение|
 
 ### Конечные итераторы
-- **[accumulate(iterable, func, initial)](#accumulate%20iterable%20func%20initial)** - аналог `reduce()` возвращающий в т.ч. промежуточные результаты
-- **[chain(\*iterable)](#chain%20iterable)** - итератор из цепочки итерируемых объектов
+|   |   |
+|---|---|
+|**[accumulate(iterable, func, initial)](#accumulate%20iterable%20func%20initial)**|аналог `reduce()` возвращающий в т.ч. промежуточные результаты|
+|**[chain(\*iterable)](#chain%20iterable)** - итератор из цепочки итерируемых объектов
 - **[chain.from_iterable(iterable)](#chain%20from_iterable%20iterable)** - итератор из итерируемого объекта, содержащего вложенные итерируемые объекты
 - **[compress(iterable, selectors)](#compress%20iterable%20selectors)** - фильтр по маске логических значений
 - **[dropwhile(predicate, iterable)](#dropwhile%20predicate%20iterable)** - итератор значений, следующих после первого появление ложного результата условия `predicate`  (итератор не выдает значения, пока all(predicate = True)
+- **[pairwise()](#pairwise)** - итератор перекрывающихся пар значений итерируемого объекта
 - **[takewhile(predicate, iterable)](#takewhile%20predicate%20iterable)** итератор значений, предшествующих первому появлению ложного результата условия `predicate`
 - **[filterfalse(predicate, iterable)](#filterfalse%20predicate%20iterable)** - функция, обратная встроенной `filter()`
 - **groupby()**
@@ -142,6 +147,31 @@ itertools.islice(iterable, start, stop[, step])
 from itertools import islice, count
 for i in islice(count(10), 5):   # ограничение на 5 итераций
      print(i)
+```
+
+
+### `pairwise()`:
+
+Функция `pairwise()` возвращает итератор, содержащий последовательные перекрывающиеся пары в виде кортежей, взятые из исходного итерируемого объекта.
+
+Аргументы функции:
+
+-   `iterable` — итерируемый объект
+
+Приведенный ниже код:
+
+```python
+from itertools import pairwise
+
+print(*pairwise('ABCDEFG'))
+print(*pairwise([1, 2, 3, 4, 5]))
+```
+
+выводит:
+
+```no-highlight
+('A', 'B') ('B', 'C') ('C', 'D') ('D', 'E') ('E', 'F') ('F', 'G')
+(1, 2) (2, 3) (3, 4) (4, 5)
 ```
 
 
