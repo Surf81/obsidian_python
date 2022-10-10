@@ -15,13 +15,12 @@
 |   |   |
 |---|---|
 |**[accumulate(iterable, func, initial)](#accumulate%20iterable%20func%20initial)**|аналог `reduce()` возвращающий в т.ч. промежуточные результаты|
-|**[chain(\*iterable)](#chain%20iterable)** - итератор из цепочки итерируемых объектов
-- **[chain.from_iterable(iterable)](#chain%20from_iterable%20iterable)** - итератор из итерируемого объекта, содержащего вложенные итерируемые объекты
-- **[compress(iterable, selectors)](#compress%20iterable%20selectors)** - фильтр по маске логических значений
-- **[dropwhile(predicate, iterable)](#dropwhile%20predicate%20iterable)** - итератор значений, следующих после первого появление ложного результата условия `predicate`  (итератор не выдает значения, пока all(predicate = True)
-- **[pairwise()](#pairwise)** - итератор перекрывающихся пар значений итерируемого объекта
-- **[takewhile(predicate, iterable)](#takewhile%20predicate%20iterable)** итератор значений, предшествующих первому появлению ложного результата условия `predicate`
-- **[filterfalse(predicate, iterable)](#filterfalse%20predicate%20iterable)** - функция, обратная встроенной `filter()`
+|**[chain(\*iterable)](#chain%20iterable)**|итератор из цепочки итерируемых объектов|
+|**[chain.from_iterable(iterable)](#chain%20from_iterable%20iterable)**|итератор из итерируемого объекта, содержащего вложенные итерируемые объекты|
+|**[compress(iterable, selectors)](#compress%20iterable%20selectors)**|фильтр по маске логических значений|
+|**[dropwhile(predicate, iterable)](#dropwhile%20predicate%20iterable)**|итератор значений, следующих после первого появление ложного результата условия `predicate`  (итератор не выдает значения, пока all(predicate = True)|
+|**[pairwise()](#pairwise)**|итератор перекрывающихся пар значений итерируемого объекта|
+|**[takewhile(predicate, iterable)](#takewhile%20predicate%20iterable)**|итератор значений, предшествующих первому появлению ложного результата условия `predicate`|**[filterfalse(predicate, iterable)](#filterfalse%20predicate%20iterable)** - функция, обратная встроенной `filter()`
 - **groupby()**
 - **[starmap(function, iterable1, \[iterable2\])](#starmap%20function%20iterable1%20iterable2)** - аналог map() умеющий работать с вложенными последовательностями
 - **[tee()](#tee)** - размножение итераторов
