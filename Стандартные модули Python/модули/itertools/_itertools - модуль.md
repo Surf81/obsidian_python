@@ -10,7 +10,7 @@
 - **[repeat(obj, times=None)](#repeat%20obj%20times%20None)** - итератор возвращает одинаковое значение
 
 ### Конечные итераторы
-- **[accumulate()](#accumulate%20iterable)** - аналог `reduce()` возвращающий в т.ч. промежуточные результаты
+- **[accumulate(iterable, func, inintial)](#accumulate%20iterable%20func%20initial)** - аналог `reduce()` возвращающий в т.ч. промежуточные результаты
 - **chain**
 - **compress()**
 - **dropwhile()**
@@ -28,7 +28,7 @@
 - **permutations()**
 
 
-### `accumulate(iterable)`:
+### `accumulate(iterable, func, inintial)`:
 Функция `accumulate()` возвращает итератор, элементами которого являются накопленные суммы или накопленные результаты функции `func`.
 
 Аргументы функции:
