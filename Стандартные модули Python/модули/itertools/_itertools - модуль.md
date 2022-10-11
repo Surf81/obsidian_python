@@ -22,23 +22,24 @@
 |**[pairwise(iterable)](#pairwise%20iterable)**|итератор перекрывающихся пар значений итерируемого объекта|
 |**[takewhile(predicate, iterable)](#takewhile%20predicate%20iterable)**|итератор значений, предшествующих первому появлению ложного результата условия `predicate`|**[filterfalse(predicate, iterable)](#filterfalse%20predicate%20iterable)** - функция, обратная встроенной `filter()`
 |**[starmap(function, iterable1, \[iterable2\])](#starmap%20function%20iterable1%20iterable2)**|аналог map() умеющий работать с вложенными последовательностями|
-|**[tee()](#tee)**|размножение итераторов|
+|**[tee(iterable, n)](#tee%20iterable%20n%202)**|размножение итераторов|
 |**[zip_longest(\*iterables)](#zip_longest%20iterables)**|аналог `zip()` для объединения последовательностей разной длины|
 
 ### Группирующие итераторы
 |   |   |
 |---|---|
- |**[groupby()](#groupby)**|группировка смежных элементов итерируемого объекта|
+ |**[groupby(iterable, key)](#groupby%20iterable%20key)**|группировка смежных элементов итерируемого объекта|
 
 
 ### Комбинаторные итераторы
 [Почитать про комбинаторику](https://mathus.ru/math/apc.pdf)
-|    |    |
-|---|---|
+
+|     |     |
+|-----|-----|
 |**[combinations(iterable, r)](#combinations%20iterable%20r)**|итератор комбинаций элементов|
 |**[combinations_with_replacement(iterable, r)](#combinations_with_replacement%20iterable%20r)**|итератор комбинаций с повторами|
-|**[product(\*arrays)](#product%20arrays)**|итератор декартовых произведений
-- **[permutations(iterable, r)](#permutations%20iterable%20r)** - итератор перестановок элементов (при указанном `r` - размещений элементов)
+|**[product(\*arrays)](#product%20arrays)**|итератор декартовых произведений|
+|**[permutations(iterable, r)](#permutations%20iterable%20r)**|итератор перестановок элементов (при указанном `r` - размещений элементов)|
 
 
 ### `accumulate(iterable, func, initial)`:
@@ -170,7 +171,7 @@ print(*it.combinations_with_replacement(a, 3))  # (1, 1, 1) (1, 1, 2) (1, 2, 2) 
 -   `iterable` — итерируемый объект
 
 
-### `groupby()`:
+### `groupby(iterable, key)`:
 
 Функция `groupby()` используется для группировки смежных элементов итерируемого объекта. Она возвращает итератор, содержащий **кортежи**, каждый из которых состоит из двух элементов: первый — значение, характеризующее группу, второй — итератор, содержащий элементы соответствующей группы.
 
@@ -354,7 +355,7 @@ print(*starmap(lambda x, y, z: x * y * z, points))
 -   `iterable` — итерируемый объект
 
 
-### `tee()`:
+### `tee(iterable, n=2)`:
 
 Функция `tee()` позволяет создать несколько **независимых итераторов** на основе одного и того же итерируемого объекта. Возвращает кортеж итераторов
 
