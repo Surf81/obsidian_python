@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Стандартные модули Python/модули/time/_time - модуль.md",
+            "file": "Стандартные модули Python/модули/itertools/_itertools - модуль.md",
             "mode": "source",
             "source": false
           }
@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Стандартные модули Python/модули/time/_time - модуль.md",
+            "file": "Стандартные модули Python/модули/itertools/_itertools - модуль.md",
             "mode": "preview",
             "source": false
           }
@@ -91,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Стандартные модули Python/модули/time/_time - модуль.md",
+                "file": "Стандартные модули Python/модули/itertools/_itertools - модуль.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Стандартные модули Python/модули/time/_time - модуль.md",
+                "file": "Стандартные модули Python/модули/itertools/_itertools - модуль.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Стандартные модули Python/модули/time/_time - модуль.md"
+                "file": "Стандартные модули Python/модули/itertools/_itertools - модуль.md"
               }
             }
           }
@@ -142,8 +142,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "b547be664af22b26",
+  "active": "b9f657edf0aa0237",
   "lastOpenFiles": [
+    "Стандартные модули Python/модули/time/_time - модуль.md",
     "Стандартные модули Python/модули/itertools/_itertools - модуль.md",
     "Стандартные модули Python/модули/functools/_functools - модуль.md",
     "Встроенные возможности Python/Встроенные функции/встроенные функции по алфавиту.md",
@@ -152,7 +153,6 @@
     "Встроенные возможности Python/Итераторы и генераторы.md",
     "Стандартные модули Python/модули/datetime/datetime - класс.md",
     "Стандартные модули Python/модули/datetime/timedelta - класс.md",
-    "Встроенные возможности Python/Встроенные функции/встроенные функции по назначению.md",
-    "Встроенные возможности Python/try-except/_try-except - конструкции языка.md"
+    "Встроенные возможности Python/Встроенные функции/встроенные функции по назначению.md"
   ]
 }
