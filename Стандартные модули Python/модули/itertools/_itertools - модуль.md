@@ -33,7 +33,7 @@
 
 ### Комбинаторные итераторы
 - **[combinations(iterable, r)](#combinations%20iterable%20r)** - итератор комбинаций элементов
-- **combinations_with_replacement()**
+- **[combinations_with_replacement(iterable, r)](#combinations_with_replacement%20iterable%20r)** - итератор комбинаций с повторами
 - **product()**
 - **[permutations(iterable, r)](#permutations%20iterable%20r)** - итератор перестановок элементов (при указанном `r` - размещений элементов)
 
@@ -99,7 +99,7 @@ T i m u r 2 9 M a l e T e a c h e r
 Аргументы функции:
 
 -   `iterable` — итерируемый объект
--   `r` — целое число, длина возвращаемых кортежей
+-   `r` — целое число, длина возвращаемых кортежей. Если `r` больше длины итерируемого объекта, вернется пустое значение
 
 ```python
 import itertools as it
@@ -108,6 +108,25 @@ a = [1, 2, 3]
 print(*it.combinations(a, 1))   # (1,) (2,) (3,)
 print(*it.combinations(a, 2))   # (1, 2) (1, 3) (2, 3)
 print(*it.combinations(a, 3))   # (1, 2, 3)
+```
+
+
+### `combinations_with_replacement(iterable, r)`:
+
+Функция `combinations_with_replacement()` возвращает итератор, который содержит все сочетания из элементов переданного итерируемого объекта с повторами. Другими словами, один элемент в одном сочетании может встречаться более одного раза. Каждое сочетание заключено в кортеж нужной длины.
+
+Аргументы функции:
+
+-   `iterable` — итерируемый объект
+-   `r` — целое число, длина возвращаемых кортежей, может быть больше длины итерируемого объекта
+
+```python
+import itertools as it
+a = [1, 2]
+
+print(*it.combinations_with_replacement(a, 1))  # (1,) (2,)
+print(*it.combinations_with_replacement(a, 2))  # (1, 1) (1, 2) (2, 2)
+print(*it.combinations_with_replacement(a, 3))  # (1, 1, 1) (1, 1, 2) (1, 2, 2) (2, 2, 2)
 ```
 
 
