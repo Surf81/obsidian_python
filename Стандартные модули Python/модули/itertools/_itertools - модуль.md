@@ -19,7 +19,7 @@
 |**[chain.from_iterable(iterable)](#chain%20from_iterable%20iterable)**|итератор из итерируемого объекта, содержащего вложенные итерируемые объекты|
 |**[compress(iterable, selectors)](#compress%20iterable%20selectors)**|фильтр по маске логических значений|
 |**[dropwhile(predicate, iterable)](#dropwhile%20predicate%20iterable)**|итератор значений, следующих после первого появление ложного результата условия `predicate`  (итератор не выдает значения, пока all(predicate = True)|
-|**[pairwise()](#pairwise%20iterable)**|итератор перекрывающихся пар значений итерируемого объекта|
+|**[pairwise(iterable)](#pairwise%20iterable)**|итератор перекрывающихся пар значений итерируемого объекта|
 |**[takewhile(predicate, iterable)](#takewhile%20predicate%20iterable)**|итератор значений, предшествующих первому появлению ложного результата условия `predicate`|**[filterfalse(predicate, iterable)](#filterfalse%20predicate%20iterable)** - функция, обратная встроенной `filter()`
 |**[starmap(function, iterable1, \[iterable2\])](#starmap%20function%20iterable1%20iterable2)**|аналог map() умеющий работать с вложенными последовательностями|
 |**[tee()](#tee)**|размножение итераторов|
@@ -32,9 +32,12 @@
 
 
 ### Комбинаторные итераторы
-- **[combinations(iterable, r)](#combinations%20iterable%20r)** - итератор комбинаций элементов
-- **[combinations_with_replacement(iterable, r)](#combinations_with_replacement%20iterable%20r)** - итератор комбинаций с повторами
-- **product()**
+[Почитать про комбинаторику](https://mathus.ru/math/apc.pdf)
+|    |    |
+|---|---|
+|**[combinations(iterable, r)](#combinations%20iterable%20r)**|итератор комбинаций элементов|
+|**[combinations_with_replacement(iterable, r)](#combinations_with_replacement%20iterable%20r)**|итератор комбинаций с повторами|
+|**[product(\*arrays)](#product%20arrays)**|итератор декартовых произведений
 - **[permutations(iterable, r)](#permutations%20iterable%20r)** - итератор перестановок элементов (при указанном `r` - размещений элементов)
 
 
@@ -296,6 +299,26 @@ import itertools as it
 a = [1, 2, 3]
 
 print(*it.permutations(a, 2))   # (1, 2) (1, 3) (2, 1) (2, 3) (3, 1) (3, 2)
+```
+
+
+### `product(*arrays)` 
+ предназначена для создания декартовых произведений из серии входных итераций.
+
+```python
+from itertools import product
+arrays = [(-1,1), (-3,3), (-5,5)]
+list(product(*arrays))
+# [
+#  (-1, -3, -5),
+#  (-1, -3, 5),
+#  (-1, 3, -5),
+#  (-1, 3, 5),
+#  (1, -3, -5),
+#  (1, -3, 5),
+#  (1, 3, -5),
+#  (1, 3, 5)
+# ]
 ```
 
 
