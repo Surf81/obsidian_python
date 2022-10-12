@@ -47,8 +47,9 @@
 |&VerticalSeparator;|Перечисление|`белый`&VerticalSeparator;`синий`|На Мише был <mark><u>белый</u></mark> свитер и <mark><u>синий</u></mark> галстук|
 |`(...)`|Группа с захватом. Группирует содержимое для обработки как единое целое и присваивает группе порядковый номер|`(\d\d-){2}\d\d`|<mark><u>22-35-14</u></mark> 223514 22-3514 2235-14|
 |||`(Mr`&VerticalSeparator;`Ms`&VerticalSeparator;`Mrs).\w+`|Dr.Alex, <mark><u>Mr.White</u></mark>, <mark><u>Mrs.Anna</u></mark>|
-|`\number`|Обращение к группе по ее порядковому номеру|`([aA])(bB)C\2\1`|abCBa, <mark><u>AbCbA</u></mark>, <mark><u>abCba</u></mark>, <mark><u>aBCBa, aBCbA
-
+|`\number`|Обращение к группе по ее порядковому номеру|`([aA])([bB])C\2\1`|abCBa, <mark><u>AbCbA</u></mark>, <mark><u>abCba</u></mark>, <mark><u>aBCBa</u></mark>, aBCbA
+|`(?:...)`|Группа без захвата. Не присваивает группе порядковый номер|||
+|`(?P<name>...)`|Именованная группа с захватом. Вместо порядкового номера присваивается имя группы|`<(?P<tag>[hH][1-6])>\w+<(?P=tag)>`|&lt;H1&gt;Заголовок&lt;/H1&gt;
 
 ## Местоположение
 
