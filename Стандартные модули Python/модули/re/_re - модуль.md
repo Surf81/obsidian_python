@@ -345,10 +345,11 @@ print(match.start(3), match.end(3))  # -1 -1
 |   |   |
 |---|---|
 |**[escape(pattern)](#escape%20pattern)**|Экранирование спец.символов в обычной строке| 
-|**[findall pattern string flags 0](#findall%20pattern%20string%20flags%200)**|поиск всех вхождений
-|**[fullmatch(pattern, string, flags=0)](#fullmatch%20pattern%20string%20flags%200)**|проверка на совпадение шаблона `pattern` и строки `string`|
-|**[match(pattern, string, flags=0)](#match%20pattern%20string%20flags%200)**|поиск шаблона `pattern` в начале строки `string`|
-|**[search(pattern, string, flags=0)](#search%20pattern%20string%20flags%200)**|поиск первого совпадения шаблона `pattern` в строке `string`|
+|**[findall(pattern, string, flags=0)](#findall%20pattern%20string%20flags%200)**|поиск всех вхождений с группировкой в кортежи по группам захвата|
+|**[finditer(pattern, string, flags=0)](#finditer%20pattern%20string%20flags%200)**|возвращает итератор совпадений в формате [Match](#Класс%20Match)|
+|**[fullmatch(pattern, string, flags=0)](#fullmatch%20pattern%20string%20flags%200)**|проверка на совпадение шаблона `pattern` и строки `string`<br>возвращает [Match](#Класс%20Match)|
+|**[match(pattern, string, flags=0)](#match%20pattern%20string%20flags%200)**|поиск шаблона `pattern` в начале строки `string`<br>возвращает [Match](#Класс%20Match)|
+|**[search(pattern, string, flags=0)](#search%20pattern%20string%20flags%200)**|поиск первого совпадения шаблона `pattern` в строке `string`<br>возвращает [Match](#Класс%20Match)|
 
 
 ### `escape(pattern)`:
@@ -475,6 +476,37 @@ print(result)
 
 ```no-highlight
 [('foo', 'bar', '')]
+```
+
+
+### `finditer(pattern, string, flags=0)`:
+#Итератор
+
+Функция `finditer()` возвращает все неперекрывающиеся совпадения с регулярным выражением в виде итератора, содержащего объекты соответствия (тип `Match`). Строка сканируется слева направо, и совпадения возвращаются в найденном порядке.
+
+Аргументы функции:
+
+-   `pattern` — шаблон регулярного выражения
+-   `string` — строка для поиска
+-   `flags=0` — один или несколько флагов (необязательный аргумент)
+
+ Приведенный ниже код:
+
+```python
+import re
+
+text = 'ул. Часовая, дом № 25, корпус 2, квартира 69'
+result = re.finditer('\d+', text)
+
+print(type(result))
+print(list(result))
+```
+
+выводит:
+
+```no-highlight
+<class 'callable_iterator'>
+[<re.Match object; span=(19, 21), match='25'>, <re.Match object; span=(30, 31), match='2'>, <re.Match object; span=(42, 44), match='69'>]
 ```
 
 
