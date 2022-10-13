@@ -81,7 +81,7 @@
 
 Если мы пользуемся **именованными группами**, используя синтаксис `(?P<name><regex>)`, тогда мы можем использовать название группы в качестве аргумента метода `group()`
 
-Приведенный ниже код:
+по номерам групп:
 
 ```python
 from re import search
@@ -96,6 +96,19 @@ print(match.group(3))          # подгруппа     # baz
 print(match.group(1, 3, 2, 1)) # кортеж        # ('foo', 'baz', 'bar', 'foo')
 ```
 
+по именам групп:
+
+```python
+from re import search
+
+match = search('(?P<w1>\w+),(?P<w2>\w+),(?P<w3>\w+)', 'foo,bar,baz')
+
+print(match.group())                       # foo,bar,baz
+print(match.group('w1'))                   # foo
+print(match.group('w2'))                   # bar
+print(match.group('w3'))                   # baz
+print(match.group('w1', 'w2', 'w3', 'w2')) # ('foo', 'bar', 'baz', 'bar')
+```
 
 
 
