@@ -79,6 +79,8 @@
 
 Метод `group()` возвращает одну или несколько подгрупп совпадения. Если метод вызывается без аргументов, то возвращается вся подстрока, которая совпала с шаблоном регулярного выражения.
 
+Если мы пользуемся **именованными группами**, используя синтаксис `(?P<name><regex>)`, тогда мы можем использовать название группы в качестве аргумента метода `group()`
+
 Приведенный ниже код:
 
 ```python
@@ -86,24 +88,15 @@ from re import search
 
 match = search('(\w+),(\w+),(\w+)', 'foo,bar,baz')
 
-print(match.group())                       # вся строка
-print(match.group(0))                      # вся строка
-print(match.group(1))                      # подгруппа
-print(match.group(2))                      # подгруппа
-print(match.group(3))                      # подгруппа
-print(match.group(1, 2, 3))                # кортеж
+print(match.group())           # вся строка    # foo,bar,baz
+print(match.group(0))          # вся строка    # foo,bar,baz
+print(match.group(1))          # подгруппа     # foo
+print(match.group(2))          # подгруппа     # bar
+print(match.group(3))          # подгруппа     # baz
+print(match.group(1, 3, 2, 1)) # кортеж        # ('foo', 'baz', 'bar', 'foo')
 ```
 
-выводит:
 
-```no-highlight
-foo,bar,baz
-foo,bar,baz
-foo
-bar
-baz
-('foo', 'bar', 'baz')
-```
 
 
 ## Методы модуля `re`
