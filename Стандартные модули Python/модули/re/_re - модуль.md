@@ -351,6 +351,9 @@ print(match.start(3), match.end(3))  # -1 -1
 |**[fullmatch(pattern, string, flags=0)](#fullmatch%20pattern%20string%20flags%200)**|проверка на совпадение шаблона `pattern` и строки `string`<br>возвращает [Match](#Класс%20Match)|
 |**[match(pattern, string, flags=0)](#match%20pattern%20string%20flags%200)**|поиск шаблона `pattern` в начале строки `string`<br>возвращает [Match](#Класс%20Match)|
 |**[search(pattern, string, flags=0)](#search%20pattern%20string%20flags%200)**|поиск первого совпадения шаблона `pattern` в строке `string`<br>возвращает [Match](#Класс%20Match)|
+|**[sub(pattern, repl, string, count=0, flags=0)](#sub%20pattern%20repl%20string%20count%200%20flags%200)**|Возвращает новую строку с замененными частями согласно шаблону `pattern` на текст или значение функции `repl`|
+|**[subn(pattern, repl, string, count=0, flags=0)](#subn%20pattern%20repl%20string%20count%200%20flags%200)**|Идентична `sub()`. отличается возвращаемым значением|
+
 
 
 ### `escape(pattern)`:
@@ -659,6 +662,49 @@ print(result)   # foo,baz,bar,qux
 ```
 
 #### Замена функцией
+Функция, передаваемая в качестве аргумента `repl`, должна принимать один аргумент — объект соответствия (тип `Match`) и возвращать строку замены.
+
+Если в качестве аргумента `repl` использовать функцию, то функция `sub()` вызовет эту функцию для каждого найденного совпадения. Она передает каждый соответствующий объект совпадения (тип `Match`) в качестве аргумента функции для предоставления информации о совпадении, при этом возвращаемое из функции значение становится строкой замены.
+
+Приведенный ниже код:
+
+```python
+import re
+def func(match_obj):
+    s = match_obj.group(0)         # строка совпадения
+    if s.isdigit():
+        return str(int(s) * 10)
+    else:
+        return s.upper()
+
+result = re.sub(r'\w+', func, r'foo.10.bar.20.baz30.40')
+
+print(result)   # FOO.100.BAR.200.BAZ30.400
+```
 
 
+### `subn(pattern, repl, string, count=0, flags=0)`:
+
+Функция `subn()` идентична функции [sub()](#sub%20pattern%20repl%20string%20count%200%20flags%200), за тем исключением, что она возвращает кортеж, состоящий из измененной строки и количества сделанных замен.
+
+Аргументы функции:
+-   `pattern` — шаблон регулярного выражения
+-   `repl` — строка замены
+-   `string` — строка для поиска
+-   `count=0` — максимальное число замен (необязательный аргумент)
+-   `flags=0` — один или несколько флагов (необязательный аргумент)
+
+```python
+import re
+def func(match_obj):
+    s = match_obj.group(0)         # строка совпадения
+    if s.isdigit():
+        return str(int(s) * 10)
+    else:
+        return s.upper()
+
+result = re.subn(r'\w+', func, 'foo.10.bar.20.baz30.40')
+
+print(result)   # ('FOO.100.BAR.200.BAZ30.400', 6)
+```
 

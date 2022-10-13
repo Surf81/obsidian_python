@@ -6,6 +6,7 @@
       {
         "id": "b9f657edf0aa0237",
         "type": "leaf",
+        "dimension": 49.73474801061008,
         "state": {
           "type": "markdown",
           "state": {
@@ -19,6 +20,7 @@
       {
         "id": "38281018c7076552",
         "type": "leaf",
+        "dimension": 50.265251989389924,
         "state": {
           "type": "markdown",
           "state": {
@@ -142,7 +144,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "38281018c7076552",
+  "active": "b9f657edf0aa0237",
   "lastOpenFiles": [
     "Стандартные модули Python/02. Модули по назначению.md",
     "Стандартные модули Python/01. Модули по алфавиту.md",
