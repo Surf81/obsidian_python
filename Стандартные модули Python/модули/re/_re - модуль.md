@@ -345,7 +345,7 @@ print(match.start(3), match.end(3))  # -1 -1
 |   |   |
 |---|---|
 |**[escape(pattern)](#escape%20pattern)**|Экранирование спец.символов в обычной строке| 
-|**[findall(pattern, string, flags=0)](#findall%20pattern%20string%20flags%200)**|поиск всех вхождений с группировкой в кортежи по группам захвата|
+|**[findall(pattern, string, flags=0)](#findall%20pattern%20string%20flags%200)**|поиск всех вхождений с отбором и группировкой в кортежи по группам захвата|
 |**[finditer(pattern, string, flags=0)](#finditer%20pattern%20string%20flags%200)**|возвращает итератор совпадений в формате [Match](#Класс%20Match)|
 |**[fullmatch(pattern, string, flags=0)](#fullmatch%20pattern%20string%20flags%200)**|проверка на совпадение шаблона `pattern` и строки `string`<br>возвращает [Match](#Класс%20Match)|
 |**[match(pattern, string, flags=0)](#match%20pattern%20string%20flags%200)**|поиск шаблона `pattern` в начале строки `string`<br>возвращает [Match](#Класс%20Match)|
@@ -480,7 +480,7 @@ print(result)
 
 
 ### `finditer(pattern, string, flags=0)`:
-#Итератор
+#итератор
 
 Функция `finditer()` возвращает все неперекрывающиеся совпадения с регулярным выражением в виде итератора, содержащего объекты соответствия (тип `Match`). Строка сканируется слева направо, и совпадения возвращаются в найденном порядке.
 
