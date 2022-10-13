@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Стандартные модули Python/модули/re/_re - модуль.md",
+            "file": "Стандартные модули Python/модули/keyword/_keyword - модуль.md",
             "mode": "source",
             "source": false
           }
@@ -24,7 +24,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Стандартные модули Python/модули/re/_re - модуль.md",
+            "file": "Стандартные модули Python/модули/keyword/_keyword - модуль.md",
             "mode": "preview",
             "source": false
           }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Стандартные модули Python/модули/re/_re - модуль.md",
+                "file": "Стандартные модули Python/модули/keyword/_keyword - модуль.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Стандартные модули Python/модули/re/_re - модуль.md",
+                "file": "Стандартные модули Python/модули/keyword/_keyword - модуль.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Стандартные модули Python/модули/re/_re - модуль.md"
+                "file": "Стандартные модули Python/модули/keyword/_keyword - модуль.md"
               }
             }
           }
@@ -146,9 +146,9 @@
   },
   "active": "b9f657edf0aa0237",
   "lastOpenFiles": [
+    "Стандартные модули Python/модули/re/_re - модуль.md",
     "Стандартные модули Python/02. Модули по назначению.md",
     "Стандартные модули Python/01. Модули по алфавиту.md",
-    "Стандартные модули Python/модули/re/_re - модуль.md",
     "Стандартные модули Python/модули/itertools/_itertools - модуль.md",
     "Стандартные модули Python/модули/time/_time - модуль.md",
     "Стандартные модули Python/модули/functools/_functools - модуль.md",
