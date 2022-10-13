@@ -73,9 +73,79 @@
 ##  Методы модуля `re`
 ***
 
-- **[search(pattern, string, flag=0)](#search%20pattern%20string%20flag%200)** - поиск первого совпадения
+|   |   |
+|---|---|
+|[fullmatch(pattern, string, flags=0)](#fullmatch%20pattern%20string%20flags%200)]||
+|**[match(pattern, string, flag=0)](#match%20pattern%20string%20flag%200)**|поиск шаблона `pattern` в начале строки `string`|
+|**[search(pattern, string, flag=0)](#search%20pattern%20string%20flag%200)**|поиск первого совпадения шаблона `pattern` в строке `string`|
 
-### `search(pattern, string, flag=0)`:
+
+### `fullmatch(pattern, string, flags=0)`:
+
+Функция `fullmatch()` возвращает специальный объект соответствия (тип `Match`), если **вся строка** соответствует регулярному выражению, или значение `None` в противном случае.
+
+Аргументы функции:
+
+-   `pattern` — шаблон регулярного выражения
+-   `string` — строка для поиска
+-   `flags=0` — один или несколько флагов (необязательный аргумент)
+
+Приведенный ниже код:
+
+```python
+from re import fullmatch
+
+match1 = fullmatch('\d+', '123foo')
+match2 = fullmatch('\d+', 'foo123')
+match3 = fullmatch('\d+', 'foo123bar')
+match4 = fullmatch('\d+', '123')
+
+print(match1)
+print(match2)
+print(match3)
+print(match4)
+```
+
+выводит:
+
+```no-highlight
+None
+None
+None
+<re.Match object; span=(0, 3), match='123'>
+```
+
+### `match(pattern, string, flags=0)`:
+
+Функция `match()` возвращает специальный объект соответствия (тип `Match`), если **начало строки** соответствуют регулярному выражению, или значение `None` в противном случае.
+
+Аргументы функции:
+
+-   `pattern` — шаблон регулярного выражения
+-   `string` — строка для поиска
+-   `flags=0` — один или несколько флагов (необязательный аргумент)
+
+Приведенный ниже код:
+
+```python
+from re import match
+
+match1 = match('super', 'superstition')
+match2 = match('super', 'insuperable')
+
+print(match1)
+print(match2)
+```
+
+выводит:
+
+```no-highlight
+<re.Match object; span=(0, 5), match='super'>
+None
+```
+
+
+### `search(pattern, string, flags=0)`:
 
 Функция `search()` сканирует строку в поисках **первого совпадения** с регулярным выражением и возвращает специальный объект соответствия (тип `Match`) или значение `None`, если ни одна позиция в строке не соответствует регулярному выражению. 
 
