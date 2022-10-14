@@ -4,12 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0f79a9016c024862",
+        "id": "5f6d3a11a326249f",
         "type": "tabs",
-        "dimension": 49.73474801061008,
         "children": [
           {
-            "id": "b9f657edf0aa0237",
+            "id": "db2e6dfbb6fff1c4",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,28 +18,16 @@
                 "source": false
               }
             },
-            "group": "0925625e97b13ad0"
-          },
-          {
-            "id": "8c90d280f0017c85",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.0.0"
-              }
-            }
+            "group": "457d4c6060a612e8"
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
-        "id": "f97fd09b28fbc02a",
+        "id": "5aae1e99593442f4",
         "type": "tabs",
-        "dimension": 50.265251989389924,
         "children": [
           {
-            "id": "38281018c7076552",
+            "id": "517dacd49c7c7033",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -50,7 +37,7 @@
                 "source": false
               }
             },
-            "group": "0925625e97b13ad0"
+            "group": "457d4c6060a612e8"
           }
         ]
       }
@@ -172,17 +159,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "8c90d280f0017c85",
+  "active": "517dacd49c7c7033",
   "lastOpenFiles": [
-    "Стандартные модули Python/модули/keyword/_keyword - модуль.md",
+    "Без названия.md",
     "Стандартные модули Python/модули/re/_re - модуль.md",
+    "Стандартные модули Python/модули/keyword/_keyword - модуль.md",
     "Стандартные модули Python/02. Модули по назначению.md",
     "Стандартные модули Python/01. Модули по алфавиту.md",
     "Стандартные модули Python/модули/itertools/_itertools - модуль.md",
     "Стандартные модули Python/модули/time/_time - модуль.md",
     "Стандартные модули Python/модули/functools/_functools - модуль.md",
     "Встроенные возможности Python/Встроенные функции/встроенные функции по алфавиту.md",
-    "Встроенные возможности Python/Встроенные функции/_встроенные функции Python.md",
-    "Стандартные модули Python/модули/string/_string - модуль.md"
+    "Встроенные возможности Python/Встроенные функции/_встроенные функции Python.md"
   ]
 }
