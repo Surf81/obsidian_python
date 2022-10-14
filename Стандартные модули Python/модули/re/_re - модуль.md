@@ -379,6 +379,19 @@ print(result)  # ['25', '2', '69']
 ```
 
 **2 способ:** мы можем вызывать функции как методы непосредственно из объекта регулярного выражения.
+Скомпилированный объект регулярного выражения поддерживает следующие методы:
+
+-   `search(string, pos, endpos)`
+-   `match(string, pos, endpos)`
+-   `fullmatch(string, pos, endpos)`
+-   `findall(string, pos, endpos)`
+-   `finditer(string, pos, endpos)`
+
+Данные методы ведут себя так же, как соответствующие (одноименные) им функции модуля `re`, за исключением того, что они также поддерживают необязательные аргументы `pos` и `endpos`.
+
+Если аргументы `pos` и `endpos` переданы, то поиск применяется только к части строки `string`, от `pos` (включительно), до `endpos` (не включительно), подобно индексам в срезах.
+
+Если указать `pos`, но опустить `endpos`, то поиск будет применяться к подстроке от `pos` до конца строки. Аналогично, если указать `endpos`, но опустить `pos`, то поиск будет применяться к подстроке от начала строки до `endpos`.
 
 ```python
 import re
@@ -388,6 +401,19 @@ text = 'ул. Часовая, дом № 25, корпус 2, квартира 69
 result = regex_obj.findall(text)
 
 print(result)  # ['25', '2', '69']
+```
+
+
+```python
+import re
+
+regex_obj = re.compile('\d+')
+text = 'foo12345barbaz'
+
+print(regex_obj.search(text))                  # <re.Match object; span=(3, 8), match='12345'>
+print(regex_obj.search(text, pos=4))           # <re.Match object; span=(4, 8), match='2345'>
+print(regex_obj.search(text, endpos=7))        # <re.Match object; span=(3, 7), match='1234'>
+print(regex_obj.search(text, pos=4, endpos=7)) # <re.Match object; span=(4, 7), match='234'>
 ```
 
 
