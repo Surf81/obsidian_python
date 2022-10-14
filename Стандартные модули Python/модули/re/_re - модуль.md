@@ -351,8 +351,41 @@ print(match.start(3), match.end(3))  # -1 -1
 |**[fullmatch(pattern, string, flags=0)](#fullmatch%20pattern%20string%20flags%200)**|проверка на совпадение шаблона `pattern` и строки `string`<br>возвращает [Match](#Класс%20Match)|
 |**[match(pattern, string, flags=0)](#match%20pattern%20string%20flags%200)**|поиск шаблона `pattern` в начале строки `string`<br>возвращает [Match](#Класс%20Match)|
 |**[search(pattern, string, flags=0)](#search%20pattern%20string%20flags%200)**|поиск первого совпадения шаблона `pattern` в строке `string`<br>возвращает [Match](#Класс%20Match)|
+|**[split(pattern, string, maxsplit=0, flags=0):](#`split(pattern,%20string,%20maxsplit=0,%20flags=0)`:)|
 |**[sub(pattern, repl, string, count=0, flags=0)](#sub%20pattern%20repl%20string%20count%200%20flags%200)**|Замена. Возвращает новую строку с замененными частями согласно шаблону `pattern` на текст или значение функции `repl`|
 |**[subn(pattern, repl, string, count=0, flags=0)](#subn%20pattern%20repl%20string%20count%200%20flags%200)**|Идентична `sub()`. отличается возвращаемым значением|
+
+
+## compile()
+
+Модуль `re` поддерживает возможность предварительной компиляции регулярного выражения в специальный объект, который можно повторно использовать позже. Для этого используется функция `compile()`.
+
+Аргументы функции:
+
+-   `regex` — шаблон регулярного выражения
+-   `flags=0` — один или несколько флагов (необязательный аргумент)
+
+Существует два способа использования скомпилированного объекта регулярного выражения.
+
+**1 способ:** мы можем его указать в качестве первого аргумента для функций модуля `re`, вместо шаблона регулярного выражения.
+
+Приведенный ниже код:
+
+```python
+import re
+
+regex_obj = re.compile('\d+')
+text = 'ул. Часовая, дом № 25, корпус 2, квартира 69'
+result = re.findall(regex_obj, text)
+
+print(result)
+```
+
+выводит:
+
+```no-highlight
+['25', '2', '69']
+```
 
 
 ### `escape(pattern)`:
