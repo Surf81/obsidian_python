@@ -14,7 +14,7 @@
 ### Конечные итераторы
 |   |   |
 |---|---|
-|**[accumulate(iterable, func, initial)](#accumulate%20iterable%20func%20initial)**|аналог `reduce()` возвращающий в т.ч. промежуточные результаты|
+|**[accumulate(iterable, func, initial)](#accumulate%20iterable%20func%20initial%20none)**|аналог `reduce()` возвращающий в т.ч. промежуточные результаты|
 |**[chain(\*iterable)](#chain%20iterable)**|итератор из цепочки итерируемых объектов|
 |**[chain.from_iterable(iterable)](#chain%20from_iterable%20iterable)**|итератор из итерируемого объекта, содержащего вложенные итерируемые объекты|
 |**[compress(iterable, selectors)](#compress%20iterable%20selectors)**|фильтр по маске логических значений|
@@ -42,7 +42,7 @@
 |**[permutations(iterable, r)](#permutations%20iterable%20r)**|итератор перестановок элементов (при указанном `r` - размещений элементов)|
 
 
-### `accumulate(iterable, func, initial)`:
+### `accumulate(iterable, func, *, initial=None)`:
 Функция `accumulate()` возвращает итератор, элементами которого являются накопленные суммы или накопленные результаты функции `func`.
 
 Аргументы функции:
