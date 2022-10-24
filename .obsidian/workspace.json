@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Встроенные возможности Python/try-except/_try-except - конструкции языка.md",
+                "file": "Стандартные модули Python/модули/re/_re - модуль.md",
                 "mode": "source",
                 "source": false
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Встроенные возможности Python/try-except/_try-except - конструкции языка.md",
+                "file": "Стандартные модули Python/модули/re/_re - модуль.md",
                 "mode": "preview",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Встроенные возможности Python/try-except/_try-except - конструкции языка.md",
+                "file": "Стандартные модули Python/модули/re/_re - модуль.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Встроенные возможности Python/try-except/_try-except - конструкции языка.md",
+                "file": "Стандартные модули Python/модули/re/_re - модуль.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Встроенные возможности Python/try-except/_try-except - конструкции языка.md"
+                "file": "Стандартные модули Python/модули/re/_re - модуль.md"
               }
             }
           }
@@ -161,6 +161,7 @@
   },
   "active": "db2e6dfbb6fff1c4",
   "lastOpenFiles": [
+    "Встроенные возможности Python/try-except/_try-except - конструкции языка.md",
     "Дополнительные модули Python/дополнительные модули.md",
     "Python - разное/Заметки.md",
     "web site, HTML/web scraping.md",
@@ -169,7 +170,6 @@
     "Стандартные модули Python/модули/datetime/_datetime - модуль.md",
     "Стандартные модули Python/01. Модули по алфавиту.md",
     "Стандартные модули Python/модули/re/_re - модуль.md",
-    "Стандартные модули Python/модули/keyword/_keyword - модуль.md",
-    "Стандартные модули Python/02. Модули по назначению.md"
+    "Стандартные модули Python/модули/keyword/_keyword - модуль.md"
   ]
 }
