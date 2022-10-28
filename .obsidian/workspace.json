@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Стандартные модули Python/модули/collections/namedtuple - класс.md",
+                "file": "Стандартные модули Python/модули/re/_re - модуль.md",
                 "mode": "source",
                 "source": false
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Стандартные модули Python/модули/collections/namedtuple - класс.md",
+                "file": "Стандартные модули Python/модули/re/_re - модуль.md",
                 "mode": "preview",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Стандартные модули Python/модули/collections/namedtuple - класс.md",
+                "file": "Стандартные модули Python/модули/re/_re - модуль.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Стандартные модули Python/модули/collections/namedtuple - класс.md",
+                "file": "Стандартные модули Python/модули/re/_re - модуль.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Стандартные модули Python/модули/collections/namedtuple - класс.md"
+                "file": "Стандартные модули Python/модули/re/_re - модуль.md"
               }
             }
           }
@@ -161,6 +161,7 @@
   },
   "active": "db2e6dfbb6fff1c4",
   "lastOpenFiles": [
+    "Стандартные модули Python/модули/collections/namedtuple - класс.md",
     "Стандартные модули Python/модули/itertools/_itertools - модуль.md",
     "Стандартные модули Python/модули/re/_re - модуль.md",
     "Встроенные возможности Python/Встроенные функции/встроенные функции по алфавиту.md",
@@ -169,7 +170,6 @@
     "Встроенные возможности Python/try-except/_try-except - конструкции языка.md",
     "Дополнительные модули Python/дополнительные модули.md",
     "Python - разное/Заметки.md",
-    "web site, HTML/web scraping.md",
-    "Встроенные возможности Python.md"
+    "web site, HTML/web scraping.md"
   ]
 }
