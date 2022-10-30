@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Стандартные модули Python/модули/collections/_deque - класс.md",
+                "file": "Стандартные модули Python/модули/collections/namedtuple - класс.md",
                 "mode": "source",
                 "source": false
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Стандартные модули Python/модули/collections/_deque - класс.md",
+                "file": "Стандартные модули Python/модули/collections/namedtuple - класс.md",
                 "mode": "preview",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Стандартные модули Python/модули/collections/_deque - класс.md",
+                "file": "Стандартные модули Python/модули/collections/namedtuple - класс.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Стандартные модули Python/модули/collections/_deque - класс.md",
+                "file": "Стандартные модули Python/модули/collections/namedtuple - класс.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Стандартные модули Python/модули/collections/_deque - класс.md"
+                "file": "Стандартные модули Python/модули/collections/namedtuple - класс.md"
               }
             }
           }
@@ -158,6 +158,7 @@
   },
   "active": "db2e6dfbb6fff1c4",
   "lastOpenFiles": [
+    "Стандартные модули Python/модули/collections/_deque - класс.md",
     "Стандартные модули Python/модули/itertools/_itertools - модуль.md",
     "Стандартные модули Python/модули/functools/_functools - модуль.md",
     "Стандартные модули Python/модули/re/_re - модуль.md",
@@ -166,7 +167,6 @@
     "Встроенные возможности Python/Встроенные функции/_встроенные функции Python.md",
     "Встроенные возможности Python/Встроенные функции/встроенные функции по назначению.md",
     "Встроенные возможности Python/try-except/_try-except - конструкции языка.md",
-    "Дополнительные модули Python/дополнительные модули.md",
-    "Python - разное/Заметки.md"
+    "Дополнительные модули Python/дополнительные модули.md"
   ]
 }
