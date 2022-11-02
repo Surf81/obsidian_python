@@ -2,6 +2,8 @@
 #functools #декораторы
 ***
 ## Методы класса `functools` модуля `functools`
+
+- **[cache](#cache)** - декоратор кеширования вычисляемых значений функции
 - **[lru_cache](#lru_cache)** - декоратор кеширования вычисляемых значений функции
 - **[partial(function, args, kwargs)](#partial%20function%20args%20kwargs)** - частичное применение функции
 - **[reduce(function, iterable, inintializer)](#reduce%20function%20iterable%20inintializer)** - аккумулятор вычислений
