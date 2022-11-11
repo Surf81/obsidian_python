@@ -23,7 +23,8 @@
 Экземпляры заменяются соответствующим значением для полей Enum. Начальное значение начинается с 1.
 <br><br>
 ## Создание `Enum`
-<br>
+
+
 ```python
 from enum import Enum
 class Color(Enum):
@@ -61,6 +62,8 @@ apples == {Color.RED: 'red delicious', Color.GREEN: 'granny smith'}
 ```
 <br><br>
 ## Доступ к полям перечисления и атрибутам
+
+
 ```python
 # Получения перечисления по значению
 Color(1)
@@ -78,3 +81,23 @@ member.name
 member.value
 # 1
 ```
+<br><br>
+## Обеспечение уникальных значений перечисления
+
+По умолчанию перечисления позволяют использовать несколько имен в качестве псевдонимов для одного и того же значения. Когда такое поведение нежелательно, можно использовать декоратор `unique`, чтобы гарантировать, что каждое значение используется только один раз в перечислении:
+
+`@``enum.``unique`[¶](https://digitology.tech/docs/python_3/library/enum.html#enum.unique "Ссылка на это определение")
+
+Декоратор [`class`](https://digitology.tech/docs/python_3/reference/compound_stmts.html#class) специально для перечислений. Он ищет в `__members__` перечисления, собирая все найденные псевдонимы; если таковые найдены, то вызывается [`ValueError`](https://digitology.tech/docs/python_3/library/exceptions.html#ValueError "ValueError") с подробностями:
+
+>>> from enum import Enum, unique
+>>> @unique
+... class Mistake(Enum):
+...     ONE = 1
+...     TWO = 2
+...     THREE = 3
+...     FOUR = 3
+...
+Traceback (most recent call last):
+...
+ValueError: duplicate values found in <enum 'Mistake'>: FOUR -> THREE
