@@ -8,36 +8,36 @@
         "type": "tabs",
         "children": [
           {
-            "id": "db2e6dfbb6fff1c4",
+            "id": "11ea2dd29d6b1add",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Стандартные модули Python/модули/functools/_functools - модуль.md",
+                "file": "Стандартные модули Python/модули/enum/_enum - модуль.md",
                 "mode": "source",
                 "source": false
               }
             },
-            "group": "457d4c6060a612e8"
+            "group": "550af249651f905c"
           }
         ]
       },
       {
-        "id": "5aae1e99593442f4",
+        "id": "e93d8eaf264c350a",
         "type": "tabs",
         "children": [
           {
-            "id": "517dacd49c7c7033",
+            "id": "85b04a60f6645c34",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Стандартные модули Python/модули/functools/_functools - модуль.md",
+                "file": "Стандартные модули Python/модули/enum/_enum - модуль.md",
                 "mode": "preview",
                 "source": false
               }
             },
-            "group": "457d4c6060a612e8"
+            "group": "550af249651f905c"
           }
         ]
       }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Стандартные модули Python/модули/functools/_functools - модуль.md",
+                "file": "Стандартные модули Python/модули/enum/_enum - модуль.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Стандартные модули Python/модули/functools/_functools - модуль.md",
+                "file": "Стандартные модули Python/модули/enum/_enum - модуль.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Стандартные модули Python/модули/functools/_functools - модуль.md"
+                "file": "Стандартные модули Python/модули/enum/_enum - модуль.md"
               }
             }
           }
@@ -156,17 +156,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "db2e6dfbb6fff1c4",
+  "active": "11ea2dd29d6b1add",
   "lastOpenFiles": [
-    "Стандартные модули Python/модули/itertools/_itertools - модуль.md",
+    "Стандартные модули Python/02. Модули по назначению.md",
+    "Стандартные модули Python/01. Модули по алфавиту.md",
+    "Стандартные модули Python/модули/enum/_enum - модуль.md",
+    "Стандартные модули Python/модули/array/_array - модуль.md",
     "Стандартные модули Python/модули/functools/_functools - модуль.md",
+    "Стандартные модули Python/модули/itertools/_itertools - модуль.md",
     "Стандартные модули Python/модули/collections/_deque - класс.md",
     "Стандартные модули Python/модули/collections/namedtuple - класс.md",
     "Стандартные модули Python/модули/re/_re - модуль.md",
-    "Встроенные возможности Python/Встроенные функции/встроенные функции по алфавиту.md",
-    "Встроенные возможности Python/Встроенные функции/_встроенные функции Python.md",
-    "Встроенные возможности Python/Встроенные функции/встроенные функции по назначению.md",
-    "Встроенные возможности Python/try-except/_try-except - конструкции языка.md",
-    "Дополнительные модули Python/дополнительные модули.md"
+    "Встроенные возможности Python/Встроенные функции/встроенные функции по алфавиту.md"
   ]
 }
