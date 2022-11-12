@@ -86,18 +86,54 @@ member.value
 
 По умолчанию перечисления позволяют использовать несколько имен в качестве псевдонимов для одного и того же значения. Когда такое поведение нежелательно, можно использовать декоратор `unique`, чтобы гарантировать, что каждое значение используется только один раз в перечислении:
 
-`@``enum.``unique`[¶](https://digitology.tech/docs/python_3/library/enum.html#enum.unique "Ссылка на это определение")
+Если будут найдены дубли, то вызывается ValueError с подробностями:
 
-Декоратор [`class`](https://digitology.tech/docs/python_3/reference/compound_stmts.html#class) специально для перечислений. Он ищет в `__members__` перечисления, собирая все найденные псевдонимы; если таковые найдены, то вызывается [`ValueError`](https://digitology.tech/docs/python_3/library/exceptions.html#ValueError "ValueError") с подробностями:
+```python
+from enum import Enum, unique
 
->>> from enum import Enum, unique
->>> @unique
-... class Mistake(Enum):
-...     ONE = 1
-...     TWO = 2
-...     THREE = 3
-...     FOUR = 3
-...
-Traceback (most recent call last):
-...
-ValueError: duplicate values found in <enum 'Mistake'>: FOUR -> THREE
+@unique
+class Mistake(Enum):
+    ONE = 1
+    TWO = 2
+    THREE = 3
+    FOUR = 3
+
+# Traceback (most recent call last):
+
+# ValueError: duplicate values found in <enum 'Mistake'>: FOUR -> THREE
+```
+<br><br>
+## Использование автоматических значений
+
+Если точное значение неважно, можно использовать `auto`:
+
+```python
+from enum import Enum, auto
+class Color(Enum):
+    RED = auto()
+    BLUE = auto()
+    GREEN = auto()
+
+list(Color)
+# [<Color.RED: 1>, <Color.BLUE: 2>, <Color.GREEN: 3>]
+```
+
+Значения выбираются `_generate_next_value_()`, которые могут быть переопределены:
+
+```python
+class AutoName(Enum):
+    def _generate_next_value_(name, start, count, last_values):
+        return name
+class Ordinal(AutoName):
+    NORTH = auto()
+    SOUTH = auto()
+    EAST = auto()
+    WEST = auto()
+list(Ordinal)
+# [<Ordinal.NORTH: 'NORTH'>, <Ordinal.SOUTH: 'SOUTH'>, <Ordinal.EAST: 'EAST'>, <Ordinal.WEST: 'WEST'>]
+```
+<br><br>
+
+Подробнее про Enum:
+
+https://digitology.tech/docs/python_3/library/enum.html#api
