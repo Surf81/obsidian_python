@@ -159,6 +159,7 @@
   "active": "11ea2dd29d6b1add",
   "lastOpenFiles": [
     "Стандартные модули Python/01. Модули по алфавиту.md",
+    "Стандартные модули Python/модули/operator/_operator - модуль.md",
     "Стандартные модули Python/модули/re/_re - модуль.md",
     "Стандартные модули Python/модули/heapq/_heapq - модуль.md",
     "Стандартные модули Python/модули/enum/_enum - модуль.md",
@@ -166,7 +167,6 @@
     "Стандартные модули Python/модули/array/_array - модуль.md",
     "Стандартные модули Python/модули/functools/_functools - модуль.md",
     "Стандартные модули Python/модули/itertools/_itertools - модуль.md",
-    "Стандартные модули Python/модули/collections/_deque - класс.md",
-    "Стандартные модули Python/модули/collections/namedtuple - класс.md"
+    "Стандартные модули Python/модули/collections/_deque - класс.md"
   ]
 }
