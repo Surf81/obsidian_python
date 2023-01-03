@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Стандартные модули Python/модули/itertools/_itertools - модуль.md",
+                "file": "Встроенные возможности Python/str/_str - тип данных.md",
                 "mode": "source",
                 "source": false
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Стандартные модули Python/модули/itertools/_itertools - модуль.md",
+                "file": "Встроенные возможности Python/str/_str - тип данных.md",
                 "mode": "preview",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Стандартные модули Python/модули/itertools/_itertools - модуль.md",
+                "file": "Встроенные возможности Python/str/_str - тип данных.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Стандартные модули Python/модули/itertools/_itertools - модуль.md",
+                "file": "Встроенные возможности Python/str/_str - тип данных.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Стандартные модули Python/модули/itertools/_itertools - модуль.md"
+                "file": "Встроенные возможности Python/str/_str - тип данных.md"
               }
             }
           }
@@ -168,6 +168,8 @@
   },
   "active": "11ea2dd29d6b1add",
   "lastOpenFiles": [
+    "Встроенные возможности Python/Встроенные функции/_встроенные функции Python.md",
+    "Стандартные модули Python/модули/itertools/_itertools - модуль.md",
     "Стандартные модули Python/01. Модули по алфавиту.md",
     "Стандартные модули Python/модули/functools/_functools - модуль.md",
     "Дополнительные модули Python/дополнительные модули.md",
@@ -175,8 +177,6 @@
     "Стандартные модули Python/модули/re/_re - модуль.md",
     "Стандартные модули Python/модули/heapq/_heapq - модуль.md",
     "Стандартные модули Python/модули/enum/_enum - модуль.md",
-    "Стандартные модули Python/02. Модули по назначению.md",
-    "Стандартные модули Python/модули/array/_array - модуль.md",
-    "Стандартные модули Python/модули/itertools/_itertools - модуль.md"
+    "Стандартные модули Python/02. Модули по назначению.md"
   ]
 }
