@@ -16,6 +16,7 @@
 	**[`split()`](#`split(sep=None,%20maxsplit=-1)%20->%20list`)**
 	**[`join()`](#join(iterable)%20->%20str)**
 	**[`replace()`](#`replace(old,%20new[,%20count])%20->%20str`)**
+	**[`splitlines()`](#`splitlines([keepends:%20bool])%20->%20list`)**
 	
 - **[Пользовательская транслитерация](#Пользовательская%20транслитерация)** 
 	**`maketrans()`**
@@ -110,8 +111,8 @@ print('1    2    3'.split(maxsplit=1))
 Если указан необязательный аргумент `count`, заменяются только первые вхождения `count`.
 
 
-#### `splitlines([keepends: bool]) -> lines`
-Метод [`str.splitlines()`](https://docs-python.ru/tutorial/operatsii-tekstovymi-strokami-str-python/metod-str-splitlines/ "Метод str.splitlines() в Python, делит текст по символу '\n'.") возвращает список строк, текста `str`, разделенного по универсальным разрывам строк. Разрывы (разделители) строк не включаются в результирующий список, если не задано значение `keepends=True`.
+#### `splitlines([keepends: bool]) -> list`
+Метод `str.splitlines()` возвращает список строк, текста `str`, разделенного по универсальным разрывам строк. Разрывы (разделители) строк не включаются в результирующий список, если не задано значение `keepends=True`.
 
 Универсальные разрывы (разделители) строк представляют собой надмножество [escape-последовательностей](https://docs-python.ru/tutorial/strokovye-bajtovye-literaly/escape-posledovatelnosti-python/ "escape-последовательности в Python").
 
