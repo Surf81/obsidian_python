@@ -6,7 +6,10 @@
 
 ## Методы модуля `heapq`
 
-**[`heappush()`](#heappush(heap,%20item))**
+- **[`heappush()`](#heappush(heap,%20item))**
+- **[`heappop()`](#`heappop(heap)`)**
+- **[`heappushpop(heap, item)`](#`heappushpop(heap,%20item)`)**
+- 
 
 ## Алгоритм очереди кучи.
 
@@ -39,7 +42,7 @@ print(h[0])
 
 
 #### `heappop(heap)`
-Функция [`heappop()`](https://docs-python.ru/standart-library/modul-heapq-python/funktsija-heappop-modulja-heapq/ "Функция heappop() модуля heapq в Python.") модуля [`heapq`](https://docs-python.ru/standart-library/modul-heapq-python/ "Модуль heapq, кучи в Python.") возвращает и удаляет наименьший элемент из кучи `heap`, сохраняя инвариант кучи.
+Функция `heappop()` возвращает и удаляет наименьший элемент из кучи `heap`, сохраняя инвариант кучи.
 
 Если куча `heap` пуста, то поднимается [исключение `IndexError`](https://docs-python.ru/tutorial/vstroennye-iskljuchenija-interpretator-python/vstroennye-iskljuchenija/ "Исключения наследуемые от Exception в Python.").
 
@@ -47,3 +50,21 @@ print(h[0])
 
 
 #### `heappushpop(heap, item)`
+Функция `heappushpop()` добавляет значение элемента `item` в кучу `heap`, затем возвращает и удаляет самый маленький элемент из кучи `heap`.
+
+Комбинация push/pop функция `heapq.heappushpop()` возвращает меньшее из двух значений, оставляя большее значение в куче.
+
+Комбинированное действие выполняется более эффективно, чем вызов `heapq.heappush()`, за которым следует отдельный вызов `heapq.heappop()`.
+
+
+#### `heapify(x)`
+Функция `heapify()` преобразовывает список `x` в кучу на месте за линейное время.
+```python
+import heapq
+h = [1, 3, 5, 7, 9, 2, 4, 6, 8, 0]
+heapq.heapify(h)
+print(h)
+#>>> [0, 1, 3, 2, 6, 9, 5, 4, 7, 8]
+```
+
+
