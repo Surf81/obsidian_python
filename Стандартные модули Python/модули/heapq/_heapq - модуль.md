@@ -4,12 +4,15 @@
 
 <https://docs-python.ru/standart-library/modul-heapq-python/>
 
-## Методы модуля `heapq`
+## Функции модуля `heapq`
 
 - **[`heappush()`](#heappush(heap,%20item))**
 - **[`heappop()`](#`heappop(heap)`)**
 - **[`heappushpop(heap, item)`](#`heappushpop(heap,%20item)`)**
-- 
+- **[`heapify()`](#`heapify(x)`)**
+- **[`heapreplace()`](#`heapreplace(heap,%20item)`)**
+- **[`merge()`](#`merge(*iterables,%20key=None,%20reverse=False)`)**
+- [[]]
 
 ## Алгоритм очереди кучи.
 
@@ -50,7 +53,7 @@ print(h[0])
 
 
 #### `heappushpop(heap, item)`
-Функция `heappushpop()` добавляет значение элемента `item` в кучу `heap`, затем возвращает и удаляет самый маленький элемент из кучи `heap`.
+Функция `heappushpop()` сначала добавляет значение элемента `item` в кучу `heap`, затем возвращает и удаляет самый маленький элемент из кучи `heap`.
 
 Комбинация push/pop функция `heapq.heappushpop()` возвращает меньшее из двух значений, оставляя большее значение в куче.
 
@@ -66,5 +69,42 @@ heapq.heapify(h)
 print(h)
 #>>> [0, 1, 3, 2, 6, 9, 5, 4, 7, 8]
 ```
+
+
+#### `heapreplace(heap, item)`
+Функция `heapreplace()` сначала удаляет и возвращает наименьший элемент из кучи `heap`, а потом добавляет новый элемент `item`. Размер кучи `heap` не меняется. Если куча пуста, поднимается [исключение `IndexError`](https://docs-python.ru/tutorial/vstroennye-iskljuchenija-interpretator-python/vstroennye-iskljuchenija/ "Исключения наследуемые от Exception в Python.").
+
+Эта одношаговая операция более эффективна, чем вызов `heapq.heappop()`, за которой следует `heapq.heappush()` и может быть более подходящей при использовании кучи фиксированного размера. Комбинация pop/push всегда возвращает элемент из кучи и заменяет его на `item`.
+
+Возвращаемое значение может быть больше, чем добавленный элемент. Если это нежелательно, рассмотрите возможность использования функции [`heapq.heappushpop()`](https://docs-python.ru/standart-library/modul-heapq-python/funktsija-heappushpop-modulja-heapq/ "Функция heappushpop() модуля heapq в Python."). Его комбинация push/pop возвращает меньшее из двух значений, оставляя большее значение в куче.
+
+
+#### `merge(*iterables, key=None, reverse=False)`
+Функция `merge()` объединяет несколько отсортированных последовательностей `*iterables` в один отсортированный итератор. Например, объединить записи с метками времени из нескольких файлов журнала. Возвращает итератор для отсортированных значений.
+
+Функция `heapq.merge()` ведет себя аналогично `sorted` как функция `itertools.chain(*iterables)`, но возвращает итерируемую [последовательность](https://docs-python.ru/tutorial/osnovnye-vstroennye-tipy-python/tipy-posledovatelnostej/ "Типы последовательностей в Python."), не извлекает сразу данные в память и предполагает, что каждый из входных потоков `iterables` уже отсортирован от наименьшего к наибольшему.
+
+Имеет два необязательных аргумента, которые должны быть указаны как ключевые аргументы.
+
+-   Аргумент `key` определяет ключевую функцию, принимающую один аргумент, которая используется для извлечения ключа сравнения из каждого входного элемента. Значением по умолчанию является `None`, что означает сравнение элементов напрямую.
+-   Аргумент `reverse` - это [логическое значение](https://docs-python.ru/tutorial/osnovnye-vstroennye-tipy-python/bool-logicheskij-tip-dannyh/ "Логический тип данных bool в Python."). Если установлено значение `True`, то входные элементы объединяются, как если бы каждое сравнение было обратным. Чтобы добиться поведения, подобного сортированному `itertools.chain(*iterables), reverse=True`, все [итерируемые](https://docs-python.ru/tutorial/osnovnye-vstroennye-tipy-python/tip-dannyh-iterator-iterator/ "Итератор Iterator, протокол итератора в Python.") элементы должны быть отсортированы от наибольшего к наименьшему.
+```python
+first_list = sorted([45, 12, 63, 95])
+second_list = sorted([42, 13, 69, 54, 15])
+final_list = list(heapq.merge(first_list, second_list))
+#>>> [12, 13, 15, 42, 45, 54, 63, 69, 95]
+```
+
+
+#### `nlargest(n, iterable, key=None)`
+Функция `nlargest()` возвращает список с `n` самыми большими элементами из набора данных, определенного с помощью итерируемой [последовательности](https://docs-python.ru/tutorial/osnovnye-vstroennye-tipy-python/tipy-posledovatelnostej/ "Типы последовательностей в Python.") `iterable`.
+
+Аргумент `key`, если он указан, определяет [функцию](https://docs-python.ru/tutorial/opredelenie-funktsij-python/ "Функции в Python, определение функций.") с одним аргументом, которая используется для извлечения ключа сравнения из каждого элемента в итерируемой [последовательности](https://docs-python.ru/tutorial/osnovnye-vstroennye-tipy-python/tipy-posledovatelnostej/ "Типы последовательностей в Python.") `iterable`, например `key=str.lower`. Значением по умолчанию является `None`, что означает сравнение элементов напрямую.
+
+Функция `nlargest()` эквивалентна вызову `sorted(iterable, key=key, reverse=True)[:n]`.
+
+Работает лучше для маленьких значений `n`. Для больших значений более эффективно использовать функцию `sorted()`. Также, когда `n=1`, более эффективно использовать [встроенную функцию `max()`](https://docs-python.ru/tutorial/vstroennye-funktsii-interpretatora-python/funktsija-max/ "Функция max() в Python, максимальное значение элемента.").
+
+Если требуется повторное использование функции `heapq.nlargest()`, рассмотрите возможность преобразования последовательности `iterable` в реальную [кучу](https://docs-python.ru/standart-library/modul-heapq-python/ "Модуль heapq, кучи в Python.").
 
 
