@@ -19,6 +19,8 @@
 	**[`splitlines()`](#`splitlines([keepends%20bool])%20->%20list`)**
 	**[`partition()`](#`partition(sep)`)**
 	**[`rpartition()`](#`rpartition(sep)`)**
+	**[`removeprefix()`](#`removeprefix(prefix)`)**
+	**[`removesuffix()`](#`removesuffix(suffix)`)**
 	
 - **[Методы форматирования символьных строк](#Методы%20форматирования%20символьных%20строк)**
 	**[`format()`](#`format(args,%20kwargs)`)**
@@ -170,6 +172,16 @@ print('1    2    3'.split(maxsplit=1))
 
 
 #### `rpartition(sep)`
+аналогично предыдущему
+
+
+#### `removeprefix(prefix)`
+Если исходная строка `str` начинается со строки префикса `prefix`, то метод `str.removeprefix()` возвращает копию строки без префикса `string[len(prefix):]`.
+
+Если префикс `prefix` в исходной строке `str` не обнаружен, то метод возвращает копию исходной строки `str`.
+
+
+#### `removesuffix(suffix)`
 аналогично предыдущему
 <br><br>
 ### Методы форматирования символьных строк
