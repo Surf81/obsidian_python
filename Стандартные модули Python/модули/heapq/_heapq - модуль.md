@@ -12,7 +12,8 @@
 - **[`heapify()`](#`heapify(x)`)**
 - **[`heapreplace()`](#`heapreplace(heap,%20item)`)**
 - **[`merge()`](#`merge(*iterables,%20key=None,%20reverse=False)`)**
-- [[]]
+- **[`nlargest()`](#`nlargest(n,%20iterable,%20key=None)`)**
+- **[`nsmallest()`](#`nsmallest(n,%20iterable,%20key=None)`)**
 
 ## Алгоритм очереди кучи.
 
@@ -106,5 +107,17 @@ final_list = list(heapq.merge(first_list, second_list))
 Работает лучше для маленьких значений `n`. Для больших значений более эффективно использовать функцию `sorted()`. Также, когда `n=1`, более эффективно использовать [встроенную функцию `max()`](https://docs-python.ru/tutorial/vstroennye-funktsii-interpretatora-python/funktsija-max/ "Функция max() в Python, максимальное значение элемента.").
 
 Если требуется повторное использование функции `heapq.nlargest()`, рассмотрите возможность преобразования последовательности `iterable` в реальную [кучу](https://docs-python.ru/standart-library/modul-heapq-python/ "Модуль heapq, кучи в Python.").
+
+
+#### `nsmallest(n, iterable, key=None)`
+Функция `nsmallest()` возвращает список с `n` наименьшими элементами из набора данных, определенного с помощью итерируемой [последовательности](https://docs-python.ru/tutorial/osnovnye-vstroennye-tipy-python/tipy-posledovatelnostej/ "Типы последовательностей в Python.") `iterable`.
+
+Аргумент `key`, если он указан, определяет [функцию](https://docs-python.ru/tutorial/opredelenie-funktsij-python/ "Функции в Python, определение функций.") с одним аргументом, которая используется для извлечения ключа сравнения из каждого элемента в итерируемой [последовательности](https://docs-python.ru/tutorial/osnovnye-vstroennye-tipy-python/tipy-posledovatelnostej/ "Типы последовательностей в Python.") `iterable`, например `key=str.lower`. Значением по умолчанию является `None`, что означает сравнение элементов напрямую.
+
+Функция `nsmallest()` эквивалентна вызову `sorted(iterable, key=key)[:n]`.
+
+Работает лучше для маленьких значений `n`. Для больших значений более эффективно использовать функцию `sorted()`. Также, когда `n=1`, более эффективно использовать [встроенную функцию `min()`](https://docs-python.ru/tutorial/vstroennye-funktsii-interpretatora-python/funktsija-min/ "Функция min() в Python, минимальное значение элемента.").
+
+Если требуется повторное использование функции `heapq.nsmallest()`, рассмотрите возможность преобразования последовательности `iterable` в реальную [кучу](https://docs-python.ru/standart-library/modul-heapq-python/ "Модуль heapq, кучи в Python.").
 
 
