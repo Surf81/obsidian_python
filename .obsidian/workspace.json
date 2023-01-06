@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Встроенные возможности Python/str/_str - тип данных.md",
+                "file": "Стандартные модули Python/модули/functools/_functools - модуль.md",
                 "mode": "source",
                 "source": false
               }
@@ -34,7 +34,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Встроенные возможности Python/str/_str - тип данных.md",
+                "file": "Стандартные модули Python/модули/functools/_functools - модуль.md",
                 "mode": "preview",
                 "source": false
               }
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Встроенные возможности Python/str/_str - тип данных.md",
+                "file": "Стандартные модули Python/модули/functools/_functools - модуль.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Встроенные возможности Python/str/_str - тип данных.md",
+                "file": "Стандартные модули Python/модули/functools/_functools - модуль.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Встроенные возможности Python/str/_str - тип данных.md"
+                "file": "Стандартные модули Python/модули/functools/_functools - модуль.md"
               }
             }
           }
@@ -170,15 +170,15 @@
   },
   "active": "11ea2dd29d6b1add",
   "lastOpenFiles": [
-    "Встроенные возможности Python/str/str - форматирование.md",
-    "Встроенные возможности Python/str/_str - тип данных.md",
-    "Стандартные модули Python/модули/heapq/_heapq - модуль.md",
     "Стандартные модули Python/01. Модули по алфавиту.md",
-    "Встроенные возможности Python/Встроенные функции/_встроенные функции Python.md",
     "Стандартные модули Python/модули/itertools/_itertools - модуль.md",
-    "Стандартные модули Python/модули/functools/_functools - модуль.md",
-    "Дополнительные модули Python/дополнительные модули.md",
     "Стандартные модули Python/модули/operator/_operator - модуль.md",
-    "Стандартные модули Python/модули/re/_re - модуль.md"
+    "Встроенные возможности Python/Операторы и выражения в Python.md",
+    "Встроенные возможности Python/str/_str - тип данных.md",
+    "Встроенные возможности Python/str/str - форматирование.md",
+    "Стандартные модули Python/модули/heapq/_heapq - модуль.md",
+    "Встроенные возможности Python/Встроенные функции/_встроенные функции Python.md",
+    "Стандартные модули Python/модули/functools/_functools - модуль.md",
+    "Дополнительные модули Python/дополнительные модули.md"
   ]
 }
