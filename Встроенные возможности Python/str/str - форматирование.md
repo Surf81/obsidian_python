@@ -3,7 +3,7 @@
 
 - **[Форматирование строк “По старинке” (оператор %)](#Форматирование%20строк%20“По%20старинке”%20(оператор%20%))**
 - **[Форматирование методом `str.format()`](#Форматирование%20методом%20`str.format()`)**
-- 
+- **[Форматирование f-строками](#Форматирование%20f-строками)**
 
 
 ## Форматирование строк “По старинке” (оператор %)
@@ -169,3 +169,68 @@ print('We are the {} who say "{}!"'.format('knights', 'Ni'))
 # Jack: 4098; Sjoerd: 4127; Dcab: 8637678
 ```
 
+Настраиваемое форматирование
+```python
+print(
+	  '{:f}, {:.2f}, {:+.{}f}'.format(1/3.0, 1/3.0)
+)
+```
+
+<br><br>
+## Форматирование f-строками
+---
+Форматированные строковые литералы, также называемые "f-строками" для краткости, позволяют включать значение выражений Python в строку, добавляя префикс к строке `'f'` или `'F'` и записывая выражения внутри строки как `{expression}`.
+
+```python
+>>> year = 2016
+>>> event = 'Referendum'
+>>> f'Results of the {year} {event}'
+# 'Results of the 2016 Referendum'
+```
+
+Необязательный [спецификатор формата Mini-Language](https://docs-python.ru/tutorial/vstroennye-funktsii-interpretatora-python/funktsija-format/ "Функция format() в Python, форматирует значение переменной.") может следовать за выражением. Это позволяет лучше контролировать форматирование значения. Следующий пример округляет число до десяти после десятичного числа:
+
+```python
+>>> import math
+>>> print(f'The value of pi is approximately {math.pi:.3f}.')
+# The value of pi is approximately 3.142.
+```
+
+Передача [целого числа](https://docs-python.ru/tutorial/osnovnye-vstroennye-tipy-python/tip-dannyh-int-tselye-chisla/ "Целые числа int в Python.") после `':'` символа приведет к минимальному количеству символов в этом поле. Это полезно для выравнивания столбцов.
+
+```python
+>>> table = {'Sjoerd': 4127, 'Jack': 4098, 'Dcab': 7678}
+>>> for name, phone in table.items():
+...     print(f'{name:10} ==> {phone:10d}')
+...
+# Sjoerd     ==>       4127
+# Jack       ==>       4098
+# Dcab       ==>       7678
+```
+
+Другие модификаторы могут использоваться для преобразования значения перед его форматированием. `'!a'` применяется [`ascii()`](https://docs-python.ru/tutorial/vstroennye-funktsii-interpretatora-python/funktsija-ascii/ "Функция ascii() в Python, преобразует строку в ASCII."), `'!s'` применяется [`str()`](https://docs-python.ru/tutorial/vstroennye-funktsii-interpretatora-python/klass-str/ "Класс str() в Python, преобразует объект в строку.") и `'!r'` применяется [`repr()`](https://docs-python.ru/tutorial/vstroennye-funktsii-interpretatora-python/funktsija-repr/ "Функция repr() в Python, описание объекта."):
+
+```python
+>>> animals = 'eels'
+>>> print(f'My hovercraft is full of {animals}.')
+# My hovercraft is full of eels.
+
+>>> print(f'My hovercraft is full of {animals!r}.')
+# My hovercraft is full of 'eels'.
+```
+
+Поддержка f-строками [спецификации формата Mini-Language](https://docs-python.ru/tutorial/vstroennye-funktsii-interpretatora-python/funktsija-format/ "Функция format() в Python, форматирует значение переменной.").
+
+```python
+>>> b = 2999
+>>> pi = 3.1415926
+>>> f'Pi={pi:.3f}, b={b:*^11.2f}'
+# 'Pi=3.142, b=**2999.00**'
+
+>>> print("\n".join(f'{a:{a}<{a}}' for a in range(1, 6)))
+# 1
+# 22
+# 333
+# 4444
+# 55555
+```

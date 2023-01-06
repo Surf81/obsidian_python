@@ -13,27 +13,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Встроенные возможности Python/str/_str - тип данных.md",
+                "file": "Встроенные возможности Python/str/str - форматирование.md",
                 "mode": "source",
                 "source": false
               }
             },
             "group": "550af249651f905c"
-          },
-          {
-            "id": "1297225906d991da",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Встроенные возможности Python/str/str - форматирование.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "e93d8eaf264c350a",
@@ -45,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Встроенные возможности Python/str/_str - тип данных.md",
+                "file": "Встроенные возможности Python/str/str - форматирование.md",
                 "mode": "preview",
                 "source": false
               }
@@ -179,7 +166,7 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "1297225906d991da",
+  "active": "11ea2dd29d6b1add",
   "lastOpenFiles": [
     "Встроенные возможности Python/str/_str - тип данных.md",
     "Встроенные возможности Python/str/str - форматирование.md",
