@@ -20,6 +20,8 @@
 	
 - **[Медоды форматирования символьных строк](#Медоды%20форматирования%20символьных%20строк)**
 	**[`format()`](#`format(*args,%20**kwargs)`)**
+	**[`format_map()`](#`format_map(mapping)`)**
+	**[`encode()`](#`encode(encoding="utf-8",%20errors="strict")`)**
 	**[`capitalize()`](#`capitalize()`)**
 	**[`expandtabs()`](#`expandtabs(tab%20=%208)`)**
 	**[`strip()`](#`strip([chars%20str])`)**
@@ -40,7 +42,7 @@
 	**`translate()`**
 
 - **[Проверка содержимого строк](#Проверка%20содержимого%20строк)**
-- 
+
 
 ### Методы поиска в строке
 #поисквстроке
@@ -155,6 +157,45 @@ print('1    2    3'.split(maxsplit=1))
 **[Описание вынесено в отдельный блок](str%20-%20форматирование.md)**
 
 
+#### `format_map(mapping)`
+-   `mapping` - подкласс словаря `dict`.
+ 
+###### Возвращаемое значение:
+-   [`str`](https://docs-python.ru/tutorial/osnovnye-vstroennye-tipy-python/tip-dannyh-str-tekstovye-stroki/ "Текстовые строки str в Python."), копия форматированной строки
+
+
+Метод `str.format_map()` работает аналогично `str.format(**mapping)`, за исключением того, что `mapping` используется напрямую и не копируется в словарь `dict`.
+
+Это полезно, если, например `mapping`, подкласс `dict`.
+```python
+>>> class Default(dict):
+...     def __missing__(self, key):
+...         return key
+...
+>>> '{name} was born in country'.format_map(Default(name='Guido'))
+# 'Guido was born in country'
+```
+
+
+#### `encode(encoding="utf-8", errors="strict")`
+Метод `str.encode()` вернет закодированную версию строки `str` как объект байтов. Другими словами кодирует текстовую строку `str` в [строку байтов](https://docs-python.ru/tutorial/osnovnye-vstroennye-tipy-python/tip-dannyh-bytes-bajtovye-stroki/ "Байтовые строки bytes в Python."), используя указанную кодировку `encoding`.
+
+Аргумент `encoding` по умолчанию используется `'utf-8'`. Для получения списка всех схем кодирования смотрите [Стандартные кодировки](https://docs.python.org/3/library/codecs.html#standard-encodings "Стандартные кодировки Python").
+
+Аргумент `errors` может быть задан для установки другой схемы обработки ошибок. Значение по умолчанию для ошибок является `'strict'`, это означает, что при ошибке кодирования будет подниматься исключение `UnicodeError`.Другие стандартные значения обработчика ошибок, это `'ignore'`, `'replace'`, `'xmlcharrefreplace'`, `'backslashreplace'` или любое другое значение, зарегистрированное с помощью [`codecs.register_error()`](https://docs-python.ru/standart-library/modul-codecs-python/registratsija-novogo-obrabotchika-oshibok/ "Регистрация нового обработчика ошибок.").
+
+Стандартные схемы обработки ошибок:
+
+-   `strict` - возбуждается `UnicodeError`, при попадании _ошибочных символов_*;
+-   `ignore` - _ошибочных символов_* пропускаются;
+-   `replace` - _ошибочных символов_* заменяются на `?`;
+-   `xmlcharrefreplace` - _ошибочных символов_* заменяются на соответствующее им XML-представление;
+-   `backslashreplace` - _ошибочных символов_* заменяются на последовательности, начинающиеся с обратной косой черты;
+-   `namereplace` - _ошибочных символов_* заменяются на последовательности вида `\N{...}`;
+-   `surrogateescape` - заменяет каждый байт на код суррогата, от `U+DC80` до `U+DCFF`;
+-   `surrogatepass` - игнорирует коды суррогатов. Используется со следующими кодеками: utf-8, utf-16, utf-32, utf-16-be, utf-16-le, utf-32-be, utf-32-le;
+
+
 #### `capitalize()`
 Делает прописной первую букву  оставляя все остальные строчными
 
@@ -243,3 +284,16 @@ print(a.translate('abc', 'АБЦ', 'ad'))
 ```
 <br><br>
 ### Проверка содержимого строк
+
+#### `isalnum()`
+#### `isalpha()`
+#### `isascii()`
+#### `isdecimal()`
+#### `isdigit()`
+#### `isidentifier()`
+#### `islower()`
+#### `isnumeric()`
+#### `isprintable()`
+#### `isspace()`
+#### `istitle()`
+#### `isupper()`
