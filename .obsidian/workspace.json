@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Стандартные модули Python/модули/functools/_functools - модуль.md",
+                "file": "Стандартные модули Python/модули/operator/_operator - модуль.md",
                 "mode": "source",
                 "source": false
               }
@@ -34,7 +34,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Стандартные модули Python/модули/functools/_functools - модуль.md",
+                "file": "Стандартные модули Python/модули/operator/_operator - модуль.md",
                 "mode": "preview",
                 "source": false
               }
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Стандартные модули Python/модули/functools/_functools - модуль.md",
+                "file": "Стандартные модули Python/модули/operator/_operator - модуль.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Стандартные модули Python/модули/functools/_functools - модуль.md",
+                "file": "Стандартные модули Python/модули/operator/_operator - модуль.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Стандартные модули Python/модули/functools/_functools - модуль.md"
+                "file": "Стандартные модули Python/модули/operator/_operator - модуль.md"
               }
             }
           }
@@ -171,6 +171,7 @@
   "active": "11ea2dd29d6b1add",
   "lastOpenFiles": [
     "Стандартные модули Python/01. Модули по алфавиту.md",
+    "Стандартные модули Python/модули/functools/_functools - модуль.md",
     "Стандартные модули Python/модули/itertools/_itertools - модуль.md",
     "Стандартные модули Python/модули/operator/_operator - модуль.md",
     "Встроенные возможности Python/Операторы и выражения в Python.md",
@@ -178,7 +179,6 @@
     "Встроенные возможности Python/str/str - форматирование.md",
     "Стандартные модули Python/модули/heapq/_heapq - модуль.md",
     "Встроенные возможности Python/Встроенные функции/_встроенные функции Python.md",
-    "Стандартные модули Python/модули/functools/_functools - модуль.md",
     "Дополнительные модули Python/дополнительные модули.md"
   ]
 }
