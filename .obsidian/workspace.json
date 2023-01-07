@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Встроенные возможности Python/list/_list - тип данных.md",
+                "file": "Стандартные модули Python/модули/re/_re - модуль.md",
                 "mode": "source",
                 "source": false
               }
@@ -34,7 +34,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Встроенные возможности Python/list/_list - тип данных.md",
+                "file": "Стандартные модули Python/модули/re/_re - модуль.md",
                 "mode": "preview",
                 "source": false
               }
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Встроенные возможности Python/list/_list - тип данных.md",
+                "file": "Стандартные модули Python/модули/re/_re - модуль.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Встроенные возможности Python/list/_list - тип данных.md",
+                "file": "Стандартные модули Python/модули/re/_re - модуль.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Встроенные возможности Python/list/_list - тип данных.md"
+                "file": "Стандартные модули Python/модули/re/_re - модуль.md"
               }
             }
           }
@@ -170,15 +170,15 @@
   },
   "active": "11ea2dd29d6b1add",
   "lastOpenFiles": [
+    "Стандартные модули Python/01. Модули по алфавиту.md",
+    "Встроенные возможности Python/Встроенные функции/встроенные функции по назначению.md",
+    "Встроенные возможности Python/Встроенные функции/встроенные функции по алфавиту.md",
+    "Встроенные возможности Python/Декораторы.md",
+    "Встроенные возможности Python/str/str - форматирование.md",
+    "Встроенные возможности Python/list/_list - тип данных.md",
     "Стандартные модули Python/модули/time/_time - модуль.md",
     "Стандартные модули Python/02. Модули по назначению.md",
     "Стандартные модули Python/модули/datetime/_datetime - модуль.md",
-    "Встроенные возможности Python/list/_list - тип данных.md",
-    "Стандартные модули Python/модули/operator/_operator - модуль.md",
-    "Стандартные модули Python/01. Модули по алфавиту.md",
-    "Стандартные модули Python/модули/functools/_functools - модуль.md",
-    "Стандартные модули Python/модули/itertools/_itertools - модуль.md",
-    "Встроенные возможности Python/Операторы и выражения в Python.md",
-    "Встроенные возможности Python/str/_str - тип данных.md"
+    "Стандартные модули Python/модули/operator/_operator - модуль.md"
   ]
 }
