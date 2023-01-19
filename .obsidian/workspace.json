@@ -14,14 +14,27 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Встроенные возможности Python/Встроенные функции/_встроенные функции Python.md",
+                "file": "web site, HTML/web scraping.md",
                 "mode": "source",
                 "source": false
               }
             },
             "group": "550af249651f905c"
+          },
+          {
+            "id": "d44efafd57f0c64c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "- Литература/Литература по Python.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "e93d8eaf264c350a",
@@ -34,8 +47,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Встроенные возможности Python/Встроенные функции/_встроенные функции Python.md",
-                "mode": "preview",
+                "file": "web site, HTML/web scraping.md",
+                "mode": "source",
                 "source": false
               }
             },
@@ -107,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Встроенные возможности Python/Встроенные функции/_встроенные функции Python.md",
+                "file": "- Литература/Литература по Python.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Встроенные возможности Python/Встроенные функции/_встроенные функции Python.md",
+                "file": "- Литература/Литература по Python.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Встроенные возможности Python/Встроенные функции/_встроенные функции Python.md"
+                "file": "- Литература/Литература по Python.md"
               }
             }
           }
@@ -168,17 +181,17 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "11ea2dd29d6b1add",
+  "active": "4711eaf31e82bf43",
   "lastOpenFiles": [
+    "web site, HTML/web scraping.md",
+    "Встроенные возможности Python.md",
+    "Без названия.md",
+    "Встроенные возможности Python/Встроенные функции/_встроенные функции Python.md",
     "Встроенные возможности Python/Встроенные функции/встроенные функции по алфавиту.md",
     "Стандартные модули Python/модули/re/_re - модуль.md",
     "Стандартные модули Python/01. Модули по алфавиту.md",
     "Встроенные возможности Python/Встроенные функции/встроенные функции по назначению.md",
     "Встроенные возможности Python/Декораторы.md",
-    "Встроенные возможности Python/str/str - форматирование.md",
-    "Встроенные возможности Python/list/_list - тип данных.md",
-    "Стандартные модули Python/модули/time/_time - модуль.md",
-    "Стандартные модули Python/02. Модули по назначению.md",
-    "Стандартные модули Python/модули/datetime/_datetime - модуль.md"
+    "Встроенные возможности Python/str/str - форматирование.md"
   ]
 }
