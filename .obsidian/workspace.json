@@ -120,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "- Литература/Литература по Python.md",
+                "file": "web site, HTML/web scraping.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "- Литература/Литература по Python.md",
+                "file": "web site, HTML/web scraping.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "- Литература/Литература по Python.md"
+                "file": "web site, HTML/web scraping.md"
               }
             }
           }
