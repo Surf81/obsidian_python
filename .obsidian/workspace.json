@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "web site, HTML/web scraping.md",
+                "file": "Стандартные модули Python/модули/itertools/_itertools - модуль.md",
                 "mode": "source",
                 "source": false
               }
@@ -33,8 +33,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "e93d8eaf264c350a",
@@ -47,7 +46,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "web site, HTML/web scraping.md",
+                "file": "Стандартные модули Python/модули/itertools/_itertools - модуль.md",
                 "mode": "source",
                 "source": false
               }
@@ -120,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "web site, HTML/web scraping.md",
+                "file": "Стандартные модули Python/модули/itertools/_itertools - модуль.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "web site, HTML/web scraping.md",
+                "file": "Стандартные модули Python/модули/itertools/_itertools - модуль.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "web site, HTML/web scraping.md"
+                "file": "Стандартные модули Python/модули/itertools/_itertools - модуль.md"
               }
             }
           }
@@ -181,15 +180,15 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "4711eaf31e82bf43",
+  "active": "11ea2dd29d6b1add",
   "lastOpenFiles": [
+    "Стандартные модули Python/01. Модули по алфавиту.md",
     "web site, HTML/web scraping.md",
     "Встроенные возможности Python.md",
     "Без названия.md",
     "Встроенные возможности Python/Встроенные функции/_встроенные функции Python.md",
     "Встроенные возможности Python/Встроенные функции/встроенные функции по алфавиту.md",
     "Стандартные модули Python/модули/re/_re - модуль.md",
-    "Стандартные модули Python/01. Модули по алфавиту.md",
     "Встроенные возможности Python/Встроенные функции/встроенные функции по назначению.md",
     "Встроенные возможности Python/Декораторы.md",
     "Встроенные возможности Python/str/str - форматирование.md"
