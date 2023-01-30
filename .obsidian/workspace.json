@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Встроенные возможности Python/str/_str - тип данных.md",
+                "file": "Стандартные модули Python/модули/random/_random - модуль.md",
                 "mode": "source",
                 "source": false
               }
@@ -46,7 +46,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Встроенные возможности Python/str/_str - тип данных.md",
+                "file": "Стандартные модули Python/модули/random/_random - модуль.md",
                 "mode": "source",
                 "source": false
               }
@@ -119,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Встроенные возможности Python/str/_str - тип данных.md",
+                "file": "Стандартные модули Python/модули/random/_random - модуль.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Встроенные возможности Python/str/_str - тип данных.md",
+                "file": "Стандартные модули Python/модули/random/_random - модуль.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Встроенные возможности Python/str/_str - тип данных.md"
+                "file": "Стандартные модули Python/модули/random/_random - модуль.md"
               }
             }
           }
@@ -182,15 +182,15 @@
   },
   "active": "11ea2dd29d6b1add",
   "lastOpenFiles": [
-    "Стандартные модули Python/модули/operator/_operator - модуль.md",
     "Стандартные модули Python/01. Модули по алфавиту.md",
+    "Встроенные возможности Python/str/_str - тип данных.md",
+    "Стандартные модули Python/модули/operator/_operator - модуль.md",
     "Стандартные модули Python/модули/itertools/_itertools - модуль.md",
     "web site, HTML/web scraping.md",
     "Встроенные возможности Python.md",
     "Без названия.md",
     "Встроенные возможности Python/Встроенные функции/_встроенные функции Python.md",
     "Встроенные возможности Python/Встроенные функции/встроенные функции по алфавиту.md",
-    "Стандартные модули Python/модули/re/_re - модуль.md",
-    "Встроенные возможности Python/Встроенные функции/встроенные функции по назначению.md"
+    "Стандартные модули Python/модули/re/_re - модуль.md"
   ]
 }
