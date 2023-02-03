@@ -14,24 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Стандартные модули Python/модули/functools/_functools - модуль.md",
+                "file": "Стандартные модули Python/модули/os/_os - модуль.md",
                 "mode": "source",
                 "source": false
               }
             },
             "group": "550af249651f905c"
-          },
-          {
-            "id": "d44efafd57f0c64c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "- Литература/Литература по Python.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ]
       },
@@ -46,7 +34,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Стандартные модули Python/модули/functools/_functools - модуль.md",
+                "file": "Стандартные модули Python/модули/os/_os - модуль.md",
                 "mode": "source",
                 "source": false
               }
@@ -119,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Стандартные модули Python/модули/functools/_functools - модуль.md",
+                "file": "Стандартные модули Python/модули/os/_os - модуль.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Стандартные модули Python/модули/functools/_functools - модуль.md",
+                "file": "Стандартные модули Python/модули/os/_os - модуль.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Стандартные модули Python/модули/functools/_functools - модуль.md"
+                "file": "Стандартные модули Python/модули/os/_os - модуль.md"
               }
             }
           }
@@ -183,14 +171,14 @@
   "active": "11ea2dd29d6b1add",
   "lastOpenFiles": [
     "Стандартные модули Python/01. Модули по алфавиту.md",
+    "- Литература/Литература по Python.md",
+    "Стандартные модули Python/модули/os/_os - модуль.md",
+    "Стандартные модули Python/02. Модули по назначению.md",
+    "Стандартные модули Python/модули/functools/_functools - модуль.md",
     "Стандартные модули Python/модули/typing/_typing - модуль.md",
     "Встроенные возможности Python/try-except/_try-except - конструкции языка.md",
     "Встроенные возможности Python/str/_str - тип данных.md",
     "Встроенные возможности Python/str/str - форматирование.md",
-    "Стандартные модули Python/модули/random/_random - модуль.md",
-    "Стандартные модули Python/модули/operator/_operator - модуль.md",
-    "Стандартные модули Python/модули/itertools/_itertools - модуль.md",
-    "web site, HTML/web scraping.md",
-    "Встроенные возможности Python.md"
+    "Стандартные модули Python/модули/random/_random - модуль.md"
   ]
 }
