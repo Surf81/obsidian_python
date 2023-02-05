@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Стандартные модули Python/модули/os/_os - модуль.md",
+                "file": "Стандартные модули Python/02. Модули по назначению.md",
                 "mode": "source",
                 "source": false
               }
@@ -34,7 +34,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Стандартные модули Python/модули/os/_os - модуль.md",
+                "file": "Стандартные модули Python/02. Модули по назначению.md",
                 "mode": "source",
                 "source": false
               }
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Стандартные модули Python/модули/os/_os - модуль.md",
+                "file": "Стандартные модули Python/02. Модули по назначению.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Стандартные модули Python/модули/os/_os - модуль.md",
+                "file": "Стандартные модули Python/02. Модули по назначению.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Стандартные модули Python/модули/os/_os - модуль.md"
+                "file": "Стандартные модули Python/02. Модули по назначению.md"
               }
             }
           }
@@ -171,8 +171,8 @@
   "active": "11ea2dd29d6b1add",
   "lastOpenFiles": [
     "Стандартные модули Python/01. Модули по алфавиту.md",
-    "Стандартные модули Python/модули/shutil/_shutil - модуль.md",
     "Стандартные модули Python/модули/os/_os - модуль.md",
+    "Стандартные модули Python/модули/shutil/_shutil - модуль.md",
     "Стандартные модули Python/02. Модули по назначению.md",
     "- Литература/Литература по Python.md",
     "Стандартные модули Python/модули/functools/_functools - модуль.md",
