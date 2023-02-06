@@ -14,14 +14,27 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Стандартные модули Python/02. Модули по назначению.md",
+                "file": "Встроенные возможности Python.md",
                 "mode": "source",
                 "source": false
               }
             },
             "group": "550af249651f905c"
+          },
+          {
+            "id": "4af073426fbd04c3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Встроенные возможности Python/ООП/- ООП.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "e93d8eaf264c350a",
@@ -34,7 +47,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Стандартные модули Python/02. Модули по назначению.md",
+                "file": "Встроенные возможности Python.md",
                 "mode": "source",
                 "source": false
               }
@@ -107,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Стандартные модули Python/02. Модули по назначению.md",
+                "file": "Встроенные возможности Python/ООП/- ООП.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Стандартные модули Python/02. Модули по назначению.md",
+                "file": "Встроенные возможности Python/ООП/- ООП.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Стандартные модули Python/02. Модули по назначению.md"
+                "file": "Встроенные возможности Python/ООП/- ООП.md"
               }
             }
           }
@@ -168,17 +181,17 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "11ea2dd29d6b1add",
+  "active": "4711eaf31e82bf43",
   "lastOpenFiles": [
+    "Встроенные возможности Python.md",
+    "Python - разное/Заметки.md",
+    "Встроенные возможности Python/Рекурсия.md",
+    "Встроенные возможности Python/Декораторы.md",
+    "Стандартные модули Python/02. Модули по назначению.md",
     "Стандартные модули Python/01. Модули по алфавиту.md",
     "Стандартные модули Python/модули/os/_os - модуль.md",
     "Стандартные модули Python/модули/shutil/_shutil - модуль.md",
-    "Стандартные модули Python/02. Модули по назначению.md",
     "- Литература/Литература по Python.md",
-    "Стандартные модули Python/модули/functools/_functools - модуль.md",
-    "Стандартные модули Python/модули/typing/_typing - модуль.md",
-    "Встроенные возможности Python/try-except/_try-except - конструкции языка.md",
-    "Встроенные возможности Python/str/_str - тип данных.md",
-    "Встроенные возможности Python/str/str - форматирование.md"
+    "Стандартные модули Python/модули/functools/_functools - модуль.md"
   ]
 }
