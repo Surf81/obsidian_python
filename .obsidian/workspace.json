@@ -32,9 +32,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "798aefd288af236b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Встроенные возможности Python/ООП/Сеттеры, геттеры, свойства объектов.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "e93d8eaf264c350a",
@@ -120,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Встроенные возможности Python/ООП/- ООП.md",
+                "file": "Встроенные возможности Python/ООП/Сеттеры, геттеры, свойства объектов.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Встроенные возможности Python/ООП/- ООП.md",
+                "file": "Встроенные возможности Python/ООП/Сеттеры, геттеры, свойства объектов.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Встроенные возможности Python/ООП/- ООП.md"
+                "file": "Встроенные возможности Python/ООП/Сеттеры, геттеры, свойства объектов.md"
               }
             }
           }
@@ -181,8 +193,9 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "4711eaf31e82bf43",
+  "active": "798aefd288af236b",
   "lastOpenFiles": [
+    "Встроенные возможности Python/ООП/- ООП.md",
     "Встроенные возможности Python.md",
     "Python - разное/Заметки.md",
     "Встроенные возможности Python/Рекурсия.md",
@@ -191,7 +204,6 @@
     "Стандартные модули Python/01. Модули по алфавиту.md",
     "Стандартные модули Python/модули/os/_os - модуль.md",
     "Стандартные модули Python/модули/shutil/_shutil - модуль.md",
-    "- Литература/Литература по Python.md",
-    "Стандартные модули Python/модули/functools/_functools - модуль.md"
+    "- Литература/Литература по Python.md"
   ]
 }
