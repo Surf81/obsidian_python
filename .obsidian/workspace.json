@@ -44,9 +44,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "68944b8b576cd7a1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Встроенные возможности Python/ООП/Дескрипторы.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "e93d8eaf264c350a",
@@ -132,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Встроенные возможности Python/ООП/Сеттеры, геттеры, свойства объектов.md",
+                "file": "Встроенные возможности Python/ООП/Дескрипторы.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Встроенные возможности Python/ООП/Сеттеры, геттеры, свойства объектов.md",
+                "file": "Встроенные возможности Python/ООП/Дескрипторы.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +184,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Встроенные возможности Python/ООП/Сеттеры, геттеры, свойства объектов.md"
+                "file": "Встроенные возможности Python/ООП/Дескрипторы.md"
               }
             }
           }
@@ -193,10 +205,10 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "798aefd288af236b",
+  "active": "68944b8b576cd7a1",
   "lastOpenFiles": [
-    "Встроенные возможности Python/ООП/- ООП.md",
     "Встроенные возможности Python/ООП/Сеттеры, геттеры, свойства объектов.md",
+    "Встроенные возможности Python/ООП/- ООП.md",
     "Стандартные модули Python/02. Модули по назначению.md",
     "Дополнительные модули Python/дополнительные модули.md",
     "Стандартные модули Python/01. Модули по алфавиту.md",
