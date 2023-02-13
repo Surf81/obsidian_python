@@ -6,137 +6,18 @@
       {
         "id": "5f6d3a11a326249f",
         "type": "tabs",
-        "dimension": 49.86876640419948,
         "children": [
-          {
-            "id": "11ea2dd29d6b1add",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Встроенные возможности Python.md",
-                "mode": "source",
-                "source": false
-              }
-            },
-            "group": "550af249651f905c"
-          },
-          {
-            "id": "4af073426fbd04c3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Встроенные возможности Python/ООП/- ООП.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "798aefd288af236b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Встроенные возможности Python/ООП/Сеттеры, геттеры, свойства объектов.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "68944b8b576cd7a1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Встроенные возможности Python/Декораторы.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "215148c0c881a7cb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Стандартные модули Python/модули/urllib/_urllib - модуль.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7bf57d0a23e820ce",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Стандартные модули Python/модули/urllib/_urllib - модуль.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1b7837f43ab9777a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Стандартные модули Python/модули/urllib/_urllib - модуль.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bb8319e99db8b635",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Стандартные модули Python/модули/urllib/_urllib - модуль.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
           {
             "id": "18a8a39001c73dbd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Стандартные модули Python/модули/urllib/urllib.request.md",
+                "file": "Стандартные модули Python/модули/shutil/_shutil - модуль.md",
                 "mode": "source",
                 "source": false
               }
             }
-          }
-        ],
-        "currentTab": 8
-      },
-      {
-        "id": "e93d8eaf264c350a",
-        "type": "tabs",
-        "dimension": 50.13123359580053,
-        "children": [
-          {
-            "id": "85b04a60f6645c34",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Встроенные возможности Python.md",
-                "mode": "source",
-                "source": false
-              }
-            },
-            "group": "550af249651f905c"
           }
         ]
       }
@@ -204,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Стандартные модули Python/модули/urllib/urllib.request.md",
+                "file": "Стандартные модули Python/модули/shutil/_shutil - модуль.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -221,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Стандартные модули Python/модули/urllib/urllib.request.md",
+                "file": "Стандартные модули Python/модули/shutil/_shutil - модуль.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -244,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Стандартные модули Python/модули/urllib/urllib.request.md"
+                "file": "Стандартные модули Python/модули/shutil/_shutil - модуль.md"
               }
             }
           }
@@ -267,11 +148,11 @@
   },
   "active": "18a8a39001c73dbd",
   "lastOpenFiles": [
+    "Стандартные модули Python/модули/urllib/urllib.request.md",
     "Стандартные модули Python/модули/urllib/_urllib - модуль.md",
     "Стандартные модули Python/модули/urllib/urllib.robotparser.md",
     "Стандартные модули Python/модули/urllib/urllib.error.md",
     "Стандартные модули Python/модули/urllib/urllib.parse.md",
-    "Стандартные модули Python/модули/urllib/urllib.request.md",
     "Стандартные модули Python/модули/typing/_typing - модуль.md",
     "Встроенные возможности Python/Декораторы.md",
     "Стандартные модули Python/01. Модули по алфавиту.md",
