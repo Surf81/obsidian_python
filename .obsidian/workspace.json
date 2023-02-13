@@ -104,9 +104,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "18a8a39001c73dbd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Стандартные модули Python/модули/urllib/urllib.request.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       },
       {
         "id": "e93d8eaf264c350a",
@@ -192,7 +204,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Стандартные модули Python/модули/urllib/_urllib - модуль.md",
+                "file": "Стандартные модули Python/модули/urllib/urllib.request.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -209,7 +221,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Стандартные модули Python/модули/urllib/_urllib - модуль.md",
+                "file": "Стандартные модули Python/модули/urllib/urllib.request.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -232,7 +244,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Стандартные модули Python/модули/urllib/_urllib - модуль.md"
+                "file": "Стандартные модули Python/модули/urllib/urllib.request.md"
               }
             }
           }
@@ -253,17 +265,17 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "bb8319e99db8b635",
+  "active": "18a8a39001c73dbd",
   "lastOpenFiles": [
-    "Стандартные модули Python/модули/urllib/urllib.response.md",
     "Стандартные модули Python/модули/urllib/_urllib - модуль.md",
+    "Стандартные модули Python/модули/urllib/urllib.robotparser.md",
+    "Стандартные модули Python/модули/urllib/urllib.error.md",
     "Стандартные модули Python/модули/urllib/urllib.parse.md",
     "Стандартные модули Python/модули/urllib/urllib.request.md",
     "Стандартные модули Python/модули/typing/_typing - модуль.md",
     "Встроенные возможности Python/Декораторы.md",
     "Стандартные модули Python/01. Модули по алфавиту.md",
     "Стандартные модули Python/02. Модули по назначению.md",
-    "Встроенные возможности Python/ООП/Дескрипторы.md",
-    "Встроенные возможности Python/ООП/Сеттеры, геттеры, свойства объектов.md"
+    "Встроенные возможности Python/ООП/Дескрипторы.md"
   ]
 }
