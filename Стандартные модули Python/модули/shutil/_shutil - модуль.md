@@ -16,23 +16,25 @@
 
 Если операция быстрого копирования завершится неудачно и данные в файл назначения не будут записаны, модуль `shutil` автоматически откажется от использования менее эффективной функции `copyfileobj()`.
 
-[`shutil.copyfile()`](https://docs-python.ru/standart-library/modul-shutil-python/funktsija-copyfile-modulja-shutil/ "Функция copyfile() модуля shutil в Python.") копирует содержимое источника в место назначения и вызывает [исключение `IOError`](https://docs-python.ru/tutorial/vstroennye-iskljuchenija-interpretator-python/oshibki-operatsionnoj-sistemy-oserror/ "Исключения операционной системы: OSError в Python."), если у него нет разрешения на запись в файл назначения.
+## `copyfile()`
+Копирует содержимое источника в место назначения и вызывает [исключение `IOError`](https://docs-python.ru/tutorial/vstroennye-iskljuchenija-interpretator-python/oshibki-operatsionnoj-sistemy-oserror/ "Исключения операционной системы: OSError в Python."), если у него нет разрешения на запись в файл назначения.
 
 ```python
->>> import shutil, os
->>> from glob import glob
+import shutil, os
+from glob import glob
 # создадим временную директорию 
->>> os.mkdir('example')
+os.mkdir('example')
 # создадим тестовый файл
->>> open('example/test_file.txt', 'w').close()
+open('example/test_file.txt', 'w').close()
 # копирование
->>> shutil.copyfile('example/test_file.txt', 'example/test_file.txt.copy')
+shutil.copyfile('example/test_file.txt', 'example/test_file.txt.copy')
 # 'example/test-file.txt.copy'
 
 # смотрим результат
->>> pprint.pprint(glob('example/*'))
+pprint.pprint(glob('example/*'))
 # ['example/test_file.txt.copy', 'example/test_file.txt']
 
 # удаляем
->>> shutil.rmtree('example')
+shutil.rmtree('example')
 ```
+
