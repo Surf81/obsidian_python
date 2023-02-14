@@ -102,3 +102,23 @@ print(f_cp)
 shutil.rmtree('test_cp')
 shutil.rmtree('test')
 ```
+
+Пример, который использует помощник [`shutil.ignore_patterns()`](https://docs-python.ru/standart-library/modul-shutil-python/funktsija-ignore-patterns-modulja-shutil/ "Функция ignore_patterns() модуля shutil в Python."). Здесь копируется все, кроме файлов `.pyc` и файлов или каталогов, чье имя начинается с `tmp`.
+
+```python
+from shutil import copytree, ignore_patterns
+copytree(source, destination, ignore=ignore_patterns('*.pyc', 'tmp*'))
+```
+
+Другой пример, который использует аргумент `ignore` для добавления вызова логирования копирования файлов:
+
+```python
+from shutil import copytree
+import logging
+
+def _logpath(path, names):
+    logging.info('Working in %s', path)
+    return []   # nothing will be ignored
+
+copytree(source, destination, ignore=_logpath)
+```
