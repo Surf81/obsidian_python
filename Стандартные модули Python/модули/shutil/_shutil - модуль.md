@@ -3,6 +3,12 @@
 ***
 ## Копирование, удаление и архивирования файлов и директорий.
 
+|метод|описание|
+|---|---|
+|**[`copyfile()`](#`copyfile()`)**|Функция `copyfile()` модуля `shutil` копирует содержимое файла, без метаданных|
+
+
+
 Модуль `shutil` предлагает ряд высокоуровневых операций над файлами и коллекциями файлов. В частности, предусмотрены функции, которые поддерживают **копирование и удаление файлов**. Для операций над отдельными файлами, смотрите [модуль `os`](https://docs-python.ru/standart-library/modul-os-python/ "Модуль os в Python, доступ к функциям ОС.").
 
 > **Предупреждение**.  
@@ -16,8 +22,20 @@
 
 Если операция быстрого копирования завершится неудачно и данные в файл назначения не будут записаны, модуль `shutil` автоматически откажется от использования менее эффективной функции `copyfileobj()`.
 
+
 ## `copyfile()`
 Копирует содержимое источника в место назначения и вызывает [исключение `IOError`](https://docs-python.ru/tutorial/vstroennye-iskljuchenija-interpretator-python/oshibki-operatsionnoj-sistemy-oserror/ "Исключения операционной системы: OSError в Python."), если у него нет разрешения на запись в файл назначения.
+Функция `copyfile()` модуля `shutil` копирует содержимое файла, без метаданных, с именем `src` в файл с именем `dst` наиболее эффективным способом. В случае успеха возвращает имя скопированного `dst`.
+```python
+shutil.copyfile(src, dst, *, follow_symlinks=True)
+```
+#### Параметры:
+-   `src` - исходное место/путь копируемого файла ,
+-   `dst` - место/путь назначения нового файла,
+-   `follow_symlinks=True` - что делать с символическими ссылками.
+
+#### Возвращаемое значение:
+-   [`str`](https://docs-python.ru/tutorial/osnovnye-vstroennye-tipy-python/tip-dannyh-str-tekstovye-stroki/ "Текстовые строки str в Python.") имя скопированного `dst`.
 
 ```python
 import shutil, os
@@ -122,3 +140,23 @@ def _logpath(path, names):
 
 copytree(source, destination, ignore=_logpath)
 ```
+
+## `rmtree()`
+#### Рекурсивное удаление каталога
+
+
+В этом примере показано, как удалить дерево каталогов в Windows, где для некоторых файлов установлен бит только для чтения. Он использует обратный вызов `onerror`, чтобы очистить бит `readonly` и повторить попытку удаления.
+
+```python
+import os, stat
+import shutil
+
+def remove_readonly(func, path, _):
+    "Clear the readonly bit and reattempt the removal"
+    os.chmod(path, stat.S_IWRITE)
+    func(path)
+
+shutil.rmtree(directory, onerror=remove_readonly)
+```
+
+В функции `shutil.rmtree()`, так же можно использовать помощник `shutil.ignore_patterns()` для **выборочного рекурсивного удаления файлов** как это делается в примере выборочного рекурсивного копирования файлов.
