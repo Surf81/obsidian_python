@@ -8,7 +8,12 @@
 |**[`copyfile()`](#`copyfile()`)**|копирует содержимое файла, без метаданных|
 |**[`copy()`](#`copy()`)**|копирует данные файла и [режим доступа к файлу](https://docs-python.ru/standart-library/modul-os-python/funktsija-chmod-modulja-os/ "Функция chmod() модуля os в Python."). Другие метаданные, такие как [время создания](https://docs-python.ru/standart-library/modul-os-path-python/funktsija-getatime-modulja-os-path/ "Функция getatime() модуля os.path в Python.") и [время изменения](https://docs-python.ru/standart-library/modul-os-path-python/funktsija-getmtime-modulja-os-path/ "Функция getmtime() модуля os.path в Python.") файла не сохраняются.|
 |**[`copy2()`](#`copy2()`)**|работает идентично функции `shutil.copy()` за исключением того, что `shutil.copy2()` также пытается сохранить метаданные файла.|
-
+|**[`copytree()`](#`copytree()`)**|рекурсивно копирует все дерево каталогов|
+|**[`move()`](https://docs-python.ru/standart-library/modul-shutil-python/funktsija-move-modulja-shutil/ "Функция move() модуля shutil в Python.")**|рекурсивно перемещает файл или каталог|
+|**[`rmtree()`](#`rmtree()`)**|рекурсивно удаляет все дерево каталогов.|
+|**[`ignore_patterns()`](https://docs-python.ru/standart-library/modul-shutil-python/funktsija-ignore-patterns-modulja-shutil/ "Функция ignore_patterns() модуля shutil в Python.")**|создает функцию, которая позволяет выборочно копировать файлы из каталогов|
+|**[`copymode()`](https://docs-python.ru/standart-library/modul-shutil-python/funktsija-copymode-modulja-shutil/ "Функция copymode() модуля shutil в Python.")**|копирует биты прав доступа из `src` в `dst`. Содержимое файла, владелец и группа не затрагиваются|
+|**[`copystat()`](https://docs-python.ru/standart-library/modul-shutil-python/funktsija-copystat-modulja-shutil/ "Функция copystat() модуля shutil в Python.")**|копирует биты прав доступа, время последнего доступа, время последней модификации и флаги из исходного места `src` в место назначения `dst`.
 
 
 Модуль `shutil` предлагает ряд высокоуровневых операций над файлами и коллекциями файлов. В частности, предусмотрены функции, которые поддерживают **копирование и удаление файлов**. Для операций над отдельными файлами, смотрите [модуль `os`](https://docs-python.ru/standart-library/modul-os-python/ "Модуль os в Python, доступ к функциям ОС.").
@@ -131,7 +136,9 @@ shutil.copy2(src, dst, *, follow_symlinks=True)
 
 
 ## `copytree()`
-Рекурсивно копирует весь каталог.
+
+Функция `copytree()` модуля `shutil` рекурсивно копирует все дерево каталогов с корнем в `src` в каталог с именем `dst` и возвращает каталог назначения `dst`.
+
 
 ```python
 shutil.copytree(src, dst, symlinks=False, ignore=None, 
@@ -208,8 +215,23 @@ copytree(source, destination, ignore=_logpath)
 ```
 
 ## `rmtree()`
-#### Рекурсивное удаление каталога
 
+Функция `rmtree()` модуля `shutil` рекурсивно удаляет все дерево каталогов. Путь `path` должен указывать на каталог, но не символическую ссылку на каталог.
+
+Если `ignore_errors=True`, то возникшие ошибки в результате неудачного удаления, будут игнорироваться. Если `False` или пропущено, такие ошибки обрабатываются путем вызова обработчика, указанного в `onerror` или, если он пропущен, они вызывают исключение.
+
+```python
+shutil.rmtree(path, ignore_errors=False, onerror=None, *, dir_fd=None)
+```
+
+#### Параметры:
+-   `path` - каталог удаления,
+-   `ignore_errors` - игнорирование ошибок во время удаления,
+-   `onerror=None` - обработчик ошибок, возникающих в процессе удаления,
+-   `dir_fd=None` - необязательный дескриптор (добавлен в Python 3.11).
+
+#### Возвращаемое значение:
+-   None
 
 В этом примере показано, как удалить дерево каталогов в Windows, где для некоторых файлов установлен бит только для чтения. Он использует обратный вызов `onerror`, чтобы очистить бит `readonly` и повторить попытку удаления.
 
