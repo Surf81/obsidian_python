@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Стандартные модули Python/модули/functools/_functools - модуль.md",
+                "file": "Стандартные модули Python/модули/itertools/_itertools - модуль.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "reduce",
+                "query": "long",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Стандартные модули Python/модули/functools/_functools - модуль.md",
+                "file": "Стандартные модули Python/модули/itertools/_itertools - модуль.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Стандартные модули Python/модули/functools/_functools - модуль.md",
+                "file": "Стандартные модули Python/модули/itertools/_itertools - модуль.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Стандартные модули Python/модули/functools/_functools - модуль.md"
+                "file": "Стандартные модули Python/модули/itertools/_itertools - модуль.md"
               }
             }
           }
@@ -147,8 +147,9 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "18a8a39001c73dbd",
+  "active": "a539d7d163c58914",
   "lastOpenFiles": [
+    "Стандартные модули Python/модули/functools/_functools - модуль.md",
     "Стандартные модули Python/модули/operator/_operator - модуль.md",
     "Стандартные модули Python/модули/shutil/_shutil - модуль.md",
     "Стандартные модули Python/02. Модули по назначению.md",
@@ -157,7 +158,6 @@
     "Стандартные модули Python/модули/urllib/urllib.request.md",
     "Стандартные модули Python/модули/urllib/_urllib - модуль.md",
     "Стандартные модули Python/модули/urllib/urllib.robotparser.md",
-    "Стандартные модули Python/модули/urllib/urllib.error.md",
-    "Стандартные модули Python/модули/urllib/urllib.parse.md"
+    "Стандартные модули Python/модули/urllib/urllib.error.md"
   ]
 }
