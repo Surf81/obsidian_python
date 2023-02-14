@@ -5,7 +5,9 @@
 
 |метод|описание|
 |---|---|
-|**[`copyfile()`](#`copyfile()`)**|Функция `copyfile()` модуля `shutil` копирует содержимое файла, без метаданных|
+|**[`copyfile()`](#`copyfile()`)**|копирует содержимое файла, без метаданных|
+|**[`copy()`](#`copy()`)**|копирует данные файла и [режим доступа к файлу](https://docs-python.ru/standart-library/modul-os-python/funktsija-chmod-modulja-os/ "Функция chmod() модуля os в Python."). Другие метаданные, такие как [время создания](https://docs-python.ru/standart-library/modul-os-path-python/funktsija-getatime-modulja-os-path/ "Функция getatime() модуля os.path в Python.") и [время изменения](https://docs-python.ru/standart-library/modul-os-path-python/funktsija-getmtime-modulja-os-path/ "Функция getmtime() модуля os.path в Python.") файла не сохраняются.|
+|**[`copy2()`](#`copy2()`)**|работает идентично функции `shutil.copy()` за исключением того, что `shutil.copy2()` также пытается сохранить метаданные файла.|
 
 
 
@@ -24,6 +26,7 @@
 
 
 ## `copyfile()`
+
 Копирует содержимое источника в место назначения и вызывает [исключение `IOError`](https://docs-python.ru/tutorial/vstroennye-iskljuchenija-interpretator-python/oshibki-operatsionnoj-sistemy-oserror/ "Исключения операционной системы: OSError в Python."), если у него нет разрешения на запись в файл назначения.
 Функция `copyfile()` модуля `shutil` копирует содержимое файла, без метаданных, с именем `src` в файл с именем `dst` наиболее эффективным способом. В случае успеха возвращает имя скопированного `dst`.
 ```python
@@ -58,7 +61,28 @@ shutil.rmtree('example')
 
 
 ## `copy()`
- Интерпретирует имя выходного файла как инструмент командной строки Unix `cp`. Если путь назначения указан как каталог, а не файл, то в каталоге создается новый файл с использованием его базового имени.
+
+Функция `copy()` модуля `shutil` копирует файл `src` в файл или каталог `dst`. Аргументы `src` и `dst` должны быть строками. Возвращает путь к вновь созданному файлу.
+
+-   Если `dst` указывает на каталог, то файл будет скопирован в `dst` с использованием базового имени файла из `src`.
+-   Если `follow_symlinks` имеет значение `false`, а `src` является [символической ссылкой](https://docs-python.ru/standart-library/modul-os-python/funktsija-supports-follow-symlinks-modulja-os/ "Функция supports_follow_symlinks модуля os в Python."), то `dst` будет создан как символическая ссылка.
+-   Если `follow_symlinks` имеет значение `true` и `src` является символической ссылкой, то `dst` будет копией файла, на который ссылается `src`.
+
+Функция `shutil.copy()` копирует данные файла и [режим доступа к файлу](https://docs-python.ru/standart-library/modul-os-python/funktsija-chmod-modulja-os/ "Функция chmod() модуля os в Python."). Другие метаданные, такие как [время создания](https://docs-python.ru/standart-library/modul-os-path-python/funktsija-getatime-modulja-os-path/ "Функция getatime() модуля os.path в Python.") и [время изменения](https://docs-python.ru/standart-library/modul-os-path-python/funktsija-getmtime-modulja-os-path/ "Функция getmtime() модуля os.path в Python.") файла не сохраняются. Чтобы сохранить все метаданные файла из оригинала, используйте функцию `shutil.copy2()`.
+
+Интерпретирует имя выходного файла как инструмент командной строки Unix `cp`. Если путь назначения указан как каталог, а не файл, то в каталоге создается новый файл с использованием его базового имени.
+
+```python
+shutil.copy(src, dst, *, follow_symlinks=True)
+```
+
+#### Параметры:
+-   `src` - [`str`](https://docs-python.ru/tutorial/osnovnye-vstroennye-tipy-python/tip-dannyh-str-tekstovye-stroki/ "Текстовые строки str в Python."), исходное место/путь копируемого файла ,
+-   `dst` - [`str`](https://docs-python.ru/tutorial/osnovnye-vstroennye-tipy-python/tip-dannyh-str-tekstovye-stroki/ "Текстовые строки str в Python."), место/путь назначения нового файла,
+-   `follow_symlinks=True` - что делать с символическими ссылками.
+
+#### Возвращаемое значение:
+-   [`str`](https://docs-python.ru/tutorial/osnovnye-vstroennye-tipy-python/tip-dannyh-str-tekstovye-stroki/ "Текстовые строки str в Python.") имя скопированного `dst`.
 
 ```python
 import shutil, os
@@ -82,8 +106,50 @@ glob('example/*')
 shutil.rmtree('example')
 ```
 
+
+## `copy2()`
+
+```python
+shutil.copy2(src, dst, *, follow_symlinks=True)
+```
+
+#### Параметры:
+-   `src` - [`str`](https://docs-python.ru/tutorial/osnovnye-vstroennye-tipy-python/tip-dannyh-str-tekstovye-stroki/ "Текстовые строки str в Python."), исходное место/путь копируемого файла ,
+-   `dst` - [`str`](https://docs-python.ru/tutorial/osnovnye-vstroennye-tipy-python/tip-dannyh-str-tekstovye-stroki/ "Текстовые строки str в Python."), место/путь назначения нового файла,
+-   `follow_symlinks=True` - что делать с символическими ссылками.
+
+#### Возвращаемое значение:
+-   Нет.
+
+Функция `copy2()` модуля `shutil` работает идентично функции `shutil.copy()` за исключением того, что `shutil.copy2()` также пытается сохранить метаданные файла.
+
+Когда аргумент `follow_symlinks` имеет значение `false`, а `src` является символической ссылкой, то функция `shutil.copy2()` пытается скопировать все метаданные из символической ссылки `src` во вновь созданную символическую ссылку `dst`. Однако эта функция доступна не на всех платформах.
+
+На платформах, где некоторые функции модуля недоступны, функция `shutil.copy2()` сохранит все возможные метаданные. Она никогда не вызывает исключение, если не может сохранить метаданные файла.
+
+Функция `shutil.copy2()` использует функцию `shutil.copystat()` для копирования метаданных файла.
+
+
 ## `copytree()`
- Рекурсивно копирует весь каталог.
+Рекурсивно копирует весь каталог.
+
+```python
+shutil.copytree(src, dst, symlinks=False, ignore=None, 
+                copy_function=copy2, ignore_dangling_symlinks=False, 
+                dirs_exist_ok=False)
+```
+
+#### Параметры:
+-   `src` - [`str`](https://docs-python.ru/tutorial/osnovnye-vstroennye-tipy-python/tip-dannyh-str-tekstovye-stroki/ "Текстовые строки str в Python."), исходное место/путь копируемого файла ,
+-   `dst` - [`str`](https://docs-python.ru/tutorial/osnovnye-vstroennye-tipy-python/tip-dannyh-str-tekstovye-stroki/ "Текстовые строки str в Python."), место/путь назначения нового файла,
+-   `follow_symlinks=True` - что делать с символическими ссылками.
+-   `ignore=None` - [функция](https://docs-python.ru/tutorial/opredelenie-funktsij-python/ "Функции в Python, определение функций.") пропуска файлов,
+-   `copy_function=copy2` - функция копирования файлов,
+-   `ignore_dangling_symlinks=False` - отключает исключение при копировании битых символических ссылок,
+-   `dirs_exist_ok=False` - вызвать исключение если `dst` существует.
+
+#### Возвращаемое значение:
+-   [`str`](https://docs-python.ru/tutorial/osnovnye-vstroennye-tipy-python/tip-dannyh-str-tekstovye-stroki/ "Текстовые строки str в Python.") каталог назначения `dst`.
 
 ```python
 # для того что бы протестировать функцию copytree()
