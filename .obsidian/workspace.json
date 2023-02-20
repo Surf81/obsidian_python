@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "30eb2d7fd18674bf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Стандартные модули Python/модули/tkinter/Без названия.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Встроенные возможности Python/str/str - форматирование.md",
+                "file": "Стандартные модули Python/модули/tkinter/Без названия.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Встроенные возможности Python/str/str - форматирование.md",
+                "file": "Стандартные модули Python/модули/tkinter/Без названия.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Встроенные возможности Python/str/str - форматирование.md"
+                "file": "Стандартные модули Python/модули/tkinter/Без названия.md"
               }
             }
           }
@@ -146,8 +159,9 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "18a8a39001c73dbd",
+  "active": "30eb2d7fd18674bf",
   "lastOpenFiles": [
+    "Встроенные возможности Python/str/str - форматирование.md",
     "Стандартные модули Python/модули/collections/_Counter - класс.md",
     "Стандартные модули Python/модули/collections/_collections - модуль.md",
     "Стандартные модули Python/модули/functools/_functools - модуль.md",
@@ -156,7 +170,6 @@
     "Стандартные модули Python/модули/shutil/_shutil - модуль.md",
     "Стандартные модули Python/02. Модули по назначению.md",
     "Стандартные модули Python/01. Модули по алфавиту.md",
-    "Стандартные модули Python/модули/urllib/urllib.request.md",
-    "Стандартные модули Python/модули/urllib/_urllib - модуль.md"
+    "Стандартные модули Python/модули/urllib/urllib.request.md"
   ]
 }
