@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -147,7 +146,7 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "18a8a39001c73dbd",
+  "active": "4711eaf31e82bf43",
   "lastOpenFiles": [
     "Стандартные модули Python/модули/collections/_collections - модуль.md",
     "Стандартные модули Python/модули/functools/_functools - модуль.md",
