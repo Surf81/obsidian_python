@@ -28,5 +28,7 @@ win.resizable(True, True) # width height
 win.mainloop()
 ```
 
+## [Размещение на форме](Размещение%20на%20форме.md)
+
 ## [Виджеты](Виджеты.md)
 
