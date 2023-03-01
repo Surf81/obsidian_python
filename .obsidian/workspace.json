@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Встроенные возможности Python/str/str - форматирование.md",
+                "file": "Стандартные модули Python/модули/string/_string - модуль.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Встроенные возможности Python/str/str - форматирование.md",
+                "file": "Стандартные модули Python/модули/string/_string - модуль.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Встроенные возможности Python/str/str - форматирование.md",
+                "file": "Стандартные модули Python/модули/string/_string - модуль.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Встроенные возможности Python/str/str - форматирование.md"
+                "file": "Стандартные модули Python/модули/string/_string - модуль.md"
               }
             }
           }
@@ -161,11 +161,11 @@
   },
   "active": "bdf706d3bd03a8e6",
   "lastOpenFiles": [
+    "Встроенные возможности Python/str/str - форматирование.md",
     "Стандартные модули Python/модули/tkinter/Виджеты.md",
     "Стандартные модули Python/модули/tkinter/Обработка событий.md",
     "Стандартные модули Python/модули/tkinter/_tkinter - модуль.md",
     "Стандартные модули Python/модули/tkinter/Размещение на форме.md",
-    "Встроенные возможности Python/str/str - форматирование.md",
     "Стандартные модули Python/модули/collections/_Counter - класс.md",
     "Стандартные модули Python/модули/collections/_collections - модуль.md",
     "Стандартные модули Python/модули/functools/_functools - модуль.md",
