@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Стандартные модули Python/модули/string/_string - модуль.md",
+                "file": "Встроенные возможности Python/str/str - форматирование.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Стандартные модули Python/модули/string/_string - модуль.md",
+                "file": "Встроенные возможности Python/str/str - форматирование.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Стандартные модули Python/модули/string/_string - модуль.md",
+                "file": "Встроенные возможности Python/str/str - форматирование.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Стандартные модули Python/модули/string/_string - модуль.md"
+                "file": "Встроенные возможности Python/str/str - форматирование.md"
               }
             }
           }
@@ -161,6 +161,7 @@
   },
   "active": "bdf706d3bd03a8e6",
   "lastOpenFiles": [
+    "Стандартные модули Python/модули/string/_string - модуль.md",
     "Встроенные возможности Python/str/str - форматирование.md",
     "Стандартные модули Python/модули/tkinter/Виджеты.md",
     "Стандартные модули Python/модули/tkinter/Обработка событий.md",
