@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Встроенные возможности Python/str/str - форматирование.md",
+                "file": "Встроенные возможности Python/ООП/Дескрипторы.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "collect",
+                "query": "дескри",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +78,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -98,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Встроенные возможности Python/str/str - форматирование.md",
+                "file": "Встроенные возможности Python/ООП/Дескрипторы.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Встроенные возможности Python/str/str - форматирование.md",
+                "file": "Встроенные возможности Python/ООП/Дескрипторы.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Встроенные возможности Python/str/str - форматирование.md"
+                "file": "Встроенные возможности Python/ООП/Дескрипторы.md"
               }
             }
           }
@@ -161,8 +162,8 @@
   },
   "active": "bdf706d3bd03a8e6",
   "lastOpenFiles": [
-    "Стандартные модули Python/модули/string/_string - модуль.md",
     "Встроенные возможности Python/str/str - форматирование.md",
+    "Стандартные модули Python/модули/string/_string - модуль.md",
     "Стандартные модули Python/модули/tkinter/Виджеты.md",
     "Стандартные модули Python/модули/tkinter/Обработка событий.md",
     "Стандартные модули Python/модули/tkinter/_tkinter - модуль.md",
