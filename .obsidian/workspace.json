@@ -30,19 +30,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "0b2ba34584a3ee56",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.1.16"
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -170,7 +160,7 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "0b2ba34584a3ee56",
+  "active": "bdf706d3bd03a8e6",
   "lastOpenFiles": [
     "Встроенные возможности Python/str/str - форматирование.md",
     "Стандартные модули Python/модули/string/_string - модуль.md",
