@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "5f6d3a11a326249f",
+        "id": "f8b4beb8de5da3a8",
         "type": "tabs",
         "children": [
           {
-            "id": "30eb2d7fd18674bf",
+            "id": "8fafc68d5c8b8517",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Стандартные модули Python/модули/tkinter/Виджеты.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bdf706d3bd03a8e6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Встроенные возможности Python/ООП/Дескрипторы.md",
+                "file": "Встроенные возможности Python/str/_str - тип данных.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "дескри",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -99,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Встроенные возможности Python/ООП/Дескрипторы.md",
+                "file": "Встроенные возможности Python/str/_str - тип данных.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Встроенные возможности Python/ООП/Дескрипторы.md",
+                "file": "Встроенные возможности Python/str/_str - тип данных.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Встроенные возможности Python/ООП/Дескрипторы.md"
+                "file": "Встроенные возможности Python/str/_str - тип данных.md"
               }
             }
           }
@@ -160,8 +146,11 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "bdf706d3bd03a8e6",
+  "active": "8fafc68d5c8b8517",
   "lastOpenFiles": [
+    "Без названия 1.canvas",
+    "Без названия.canvas",
+    "Встроенные возможности Python/ООП/Дескрипторы.md",
     "Встроенные возможности Python/str/str - форматирование.md",
     "Стандартные модули Python/модули/string/_string - модуль.md",
     "Стандартные модули Python/модули/tkinter/Виджеты.md",
