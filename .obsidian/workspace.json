@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Встроенные возможности Python/str/_str - тип данных.md",
+                "file": "Встроенные возможности Python/str/str - форматирование.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Встроенные возможности Python/str/_str - тип данных.md",
+                "file": "Встроенные возможности Python/str/str - форматирование.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Встроенные возможности Python/str/_str - тип данных.md",
+                "file": "Встроенные возможности Python/str/str - форматирование.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Встроенные возможности Python/str/_str - тип данных.md"
+                "file": "Встроенные возможности Python/str/str - форматирование.md"
               }
             }
           }
@@ -148,6 +148,7 @@
   },
   "active": "8fafc68d5c8b8517",
   "lastOpenFiles": [
+    "Встроенные возможности Python/str/_str - тип данных.md",
     "Без названия 1.canvas",
     "Без названия.canvas",
     "Встроенные возможности Python/ООП/Дескрипторы.md",
