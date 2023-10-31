@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "format",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,7 +73,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -157,10 +158,10 @@
   "active": "8fafc68d5c8b8517",
   "lastOpenFiles": [
     "Встроенные возможности Python/str/_str - тип данных.md",
+    "Встроенные возможности Python/str/str - форматирование.md",
     "Без названия 1.canvas",
     "Без названия.canvas",
     "Встроенные возможности Python/ООП/Дескрипторы.md",
-    "Встроенные возможности Python/str/str - форматирование.md",
     "Стандартные модули Python/модули/string/_string - модуль.md",
     "Стандартные модули Python/модули/tkinter/Виджеты.md",
     "Стандартные модули Python/модули/tkinter/Обработка событий.md",
