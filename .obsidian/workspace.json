@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "830a1100c2b5c59c",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.16"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -155,7 +166,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8fafc68d5c8b8517",
+  "active": "830a1100c2b5c59c",
   "lastOpenFiles": [
     "Встроенные возможности Python/str/_str - тип данных.md",
     "Встроенные возможности Python/str/str - форматирование.md",
